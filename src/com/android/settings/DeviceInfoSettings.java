@@ -98,7 +98,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_MAXI_VERSION = "maxi_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
-    static final int TAPS_TO_BE_A_DEVELOPER = 7;
+    static final int TAPS_TO_BE_A_DEVELOPER = 123;
 
     public static final String KEY_ADVANCED_MODE = "advanced_mode";
 
