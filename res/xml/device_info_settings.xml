@@ -21,9 +21,7 @@
         <PreferenceScreen android:key="system_update_settings"
                 android:title="@string/system_update_settings_list_item_title" 
                 android:summary="@string/system_update_settings_list_item_summary">
-            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS"
-                    android:targetPackage="com.cyngn.fota"
-                    android:targetClass="com.cyngn.fota.SystemUpdateActivity" />
+           <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
         </PreferenceScreen>
 
         <PreferenceScreen android:key="additional_system_update_settings"
@@ -31,15 +29,6 @@
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="@string/additional_system_update"
                     android:targetClass="@string/additional_system_update_menu" />
-        </PreferenceScreen>
-
-        <!-- CyanogenMod Updates -->
-        <PreferenceScreen android:key="cm_updates"
-                android:title="@string/cmupdate_settings_title"
-                android:summary="@string/system_update_settings_list_item_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.cyanogenmod.updater"
-                    android:targetClass="com.cyanogenmod.updater.UpdatesSettings" />
         </PreferenceScreen>
 
         <!-- Advanced mode -->
@@ -86,11 +75,6 @@
                     android:title="@string/license_title">
                 <intent android:action="android.settings.LICENSE" />
             </PreferenceScreen>
-
-            <!-- CM License information -->
-            <PreferenceScreen
-                    android:key="cmlicense"
-                    android:title="@string/cmlicense_title" />
 
             <!-- Terms and conditions -->
             <PreferenceScreen
