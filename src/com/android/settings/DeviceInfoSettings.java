@@ -243,7 +243,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 } catch (Exception e) {
                     Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
                 }
-            }  
+            }   
         } else if (preference.getKey().equals(KEY_BUILD_NUMBER)) {
             // Don't enable developer options for secondary users.
             if (UserHandle.myUserId() != UserHandle.USER_OWNER) return true;
