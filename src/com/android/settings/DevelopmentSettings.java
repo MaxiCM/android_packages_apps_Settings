@@ -274,6 +274,8 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
 
     private SwitchPreference mDevelopmentShortcut;
 
+    private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
+
     private final ArrayList<SwitchPreference> mResetSwitchPrefs
             = new ArrayList<SwitchPreference>();
 
