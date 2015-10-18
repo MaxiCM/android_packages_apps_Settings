@@ -1545,6 +1545,18 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 .show();
     }
 
+    private void updateHighEndGfxOptions() {
+        updateSwitchPreference(mForceHighEndGfx,
+                SystemProperties.getBoolean(FORCE_HIGHEND_GFX_PERSIST_PROP,
+                false));
+    }
+
+    private void writeHighEndGfxOptions() {
+        SystemProperties.set(FORCE_HIGHEND_GFX_PERSIST_PROP,
+                mForceHighEndGfx.isChecked() ? "true" : "false");
+        pokeSystemProperties();
+    }
+
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
         if (switchView != mSwitchBar.getSwitch()) {
