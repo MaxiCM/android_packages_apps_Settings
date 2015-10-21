@@ -81,7 +81,6 @@ import com.android.settings.applications.ManageApplications;
 import com.android.settings.applications.ProcessStatsUi;
 import com.android.settings.blacklist.BlacklistSettings;
 import com.android.settings.bluetooth.BluetoothSettings;
-import com.android.settings.contributors.ContributorsCloudFragment;
 import com.android.settings.cyanogenmod.DisplayRotation;
 import com.android.settings.dashboard.DashboardCategory;
 import com.android.settings.dashboard.DashboardSummary;
@@ -329,7 +328,6 @@ public class SettingsActivity extends Activity
             LockScreenSettings.class.getName(),
             LiveDisplay.class.getName(),
             DisplayRotation.class.getName(),
-            ContributorsCloudFragment.class.getName()
     };
 
 
