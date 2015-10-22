@@ -232,8 +232,6 @@
   <string name="update_recovery_summary">تحديث الاستعادة بتحديثات النظام</string>
   <string name="update_recovery_on_warning">ملحوظة: عندما يتم تمكين هذه الميزة، سيتم استبدال النسخة المستعادة المثبتة بأخرى مضمنة مع الإصدار الحالي من برنامج التشغيل العامل.\n\nوسيتم تحديث نسختك المستعادة مع ترقيات النظام، مما يساعد على ضمان التوافق مع الإصدارات المستقبلية. \n\nهل ترغب في تمكين هذه الميزة؟</string>
   <string name="update_recovery_off_warning">تحذير: عندما يتم تعطيل هذه الميزة، لن يتم تحديث نسختك المستعادة المثبتة بترقيات النظام.\n\n كما أن ترقيات نظام التشغيل الجديدة قد لا يمكن تثبيتها مع النسخ المستعادة القديمة أو المخصصة. \n\nهل ترغب في تعطيل هذه الميزة؟</string>
-  <string name="mod_version">إصدار CyanogenMod</string>
-  <string name="mod_version_default">غير معروف</string>
   <string name="device_model">طراز الجهاز</string>
   <string name="device_name">اسم الجهاز</string>
   <string name="build_date">تاريخ الإصدار</string>

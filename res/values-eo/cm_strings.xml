@@ -223,8 +223,6 @@
   <string name="update_recovery_summary">Ĝistadigi riparadon de Cyanogen kun sistemaj ĝistadigadoj</string>
   <string name="update_recovery_on_warning">ATENTU: Kiam tiu funkcio estas ŝaltita, via instalata riparado estos anstataŭigita per unu el la aktuala sistemo.\n\nVia riparado estos ĝistatigita samtempe kiel la sistemaj ĝisdatigadoj, kaj tio helpos al kongrueco de la estontaj versioj.\n\nĈu vi volas ŝalti tiun  funkcion?</string>
   <string name="update_recovery_off_warning">ATENTU: Kiam tiu funkcio estas malŝaltita, via instalata riparado ne estos ĝistatigitaj samtempe kiel la sistemaj ĝisdatigadoj.\n\nEstontaj sistemaj ĝistadigoj eble ne instaliĝos kun malmodernaj aŭ propraj versioj de riparadoj\n\nĈu vi volas malŝalti tiun  funkcion?</string>
-  <string name="mod_version">Versio de CyanogenMod</string>
-  <string name="mod_version_default">Nekonata</string>
   <string name="device_model">Modelo de la aparato</string>
   <string name="device_name">Nomo de la aparato</string>
   <string name="build_date">Dato de la eldono</string>

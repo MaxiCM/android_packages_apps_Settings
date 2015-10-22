@@ -214,8 +214,6 @@
   <string name="update_recovery_summary">نوێکردنەوەی ڕیکەڤەری لەگەڵ نوێکردنەوەی سیستەمدا</string>
   <string name="update_recovery_on_warning">تێبینی: کاتێک ئەم خزمەتە چاڵاک کرا ریکەڤەریەکەی تۆ جێگەی دەگیرێت بە ئەو وەشانەی ئێستای سیستەمەکەت \n\n ریکەڤەریەکەت نوێ دەکرێتەوە لەگەڵ بەرزکردنەوەی سیستەمەکەت بۆ یارمەتیدان لە گونجاندنی وەشانەکە \n\n ئایە ئەتەوێت ئەم خزمەتە چاڵاک بکەیت؟?</string>
   <string name="update_recovery_off_warning">ئاگاداری : کاتێک ئەم خزمەتە ناچاڵاک دەکەیت ریکەڤەریەکەت نوێ ناکرێتەوە لەگەڵ بەرزکردنەوی سیستەمەکەت .\n\n  خزمەتی نوێ لەوانەیە دانەمەزرێ لەگەڵ بەرزکردنەوەی وەشانەکە \n\n. دڵنیای لە ناچاڵاک کردنی ئەم خزمەتە؟?</string>
-  <string name="mod_version">وەشانی کوردی</string>
-  <string name="mod_version_default">نەناسراو</string>
   <string name="device_model">مۆدێلی ئامێر</string>
   <string name="device_name">ناوی ئامێر</string>
   <string name="build_date">بنیاتنانی ڕۆژ</string>
