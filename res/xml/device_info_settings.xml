@@ -36,6 +36,12 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
+        <!-- ChangeLog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_title"
+                android:summary="@string/changelog_title_summary"
+                android:fragment="com.android.settings.maxicm.ChangeLog" />
+
         <!-- Advanced mode -->
         <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
             android:key="advanced_mode"

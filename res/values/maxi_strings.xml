@@ -20,4 +20,9 @@
     <string name="maxi_version">MaxiCM version</string>
     <string name="maxi_version_default">Unknown</string>
 
+    <!-- ChangeLog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">View recent changes in the ROM</string>
+    <string name="changelog_error">Unable to load changelog</string>
+
 </resources>
