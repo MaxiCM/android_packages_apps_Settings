@@ -162,7 +162,6 @@
   <string name="sms_security_check_limit_title">Īsziņu ierobežojums</string>
   <string name="block_notifications_title">Filtra paziņojumi</string>
   <string name="block_notifications_summary">Pārvaldīt ignorētos ziņojumus un filtrus</string>
-  <string name="cmupdate_settings_title">CyanogenMod atjaunojumi</string>
   <string name="build_date">Būvējuma datums</string>
   <string name="double_tap_to_wake_title">Lai pamodinātu, veiciet dubultu piesitienu</string>
   <string name="proximity_wake_title">Novērsiet nejaušu pamodināšanu</string>
@@ -405,8 +404,6 @@
   <string name="pref_force_highend_gfx_summary">Ieslēdz augstas kvalitātes vizuālus efektus, piemēram, statusa/navigācijas joslas caurspīdīgumu (nepieciešama atsāknēšana)</string>
   <string name="edge_gesture_service_title">Atslēgt žestu pieskārienu notikumus</string>
   <string name="edge_gesture_service_summary">Nesūtīt lietotnēm pieskārienu notikumus navigācija un statusa joslas žestus</string>
-  <string name="cmlicense_title">CyanogenMod atbildība</string>
-  <string name="settings_cmlicense_activity_title">CyanogenMod atbildība</string>
   <string name="unlock_quick_unlock_control_title">Ātrā atslēgšana</string>
   <string name="unlock_quick_unlock_control_summary">Automātiski atslēgt, kad ir ievadīts pareizs PIN/parole</string>
   <string name="unlock_scramble_pin_layout_title">Samaisīt izkārtojumu</string>

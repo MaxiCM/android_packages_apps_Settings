@@ -214,7 +214,6 @@
   <string name="block_notifications_title">Filtru notificări</string>
   <string name="block_notifications_summary">Gestionați notificările ignorate și filtrele</string>
   <string name="no_filters_title">Niciun filtru setat</string>
-  <string name="cmupdate_settings_title">Actualizări CyanogenMod</string>
   <string name="device_model">Modelul dispozitivului</string>
   <string name="device_name">Numele dispozitivului</string>
   <string name="build_date">Dată compilare</string>
@@ -615,8 +614,6 @@
   <string name="pref_force_highend_gfx_summary">Permite efecte vizuale de calitate înaltă, cum ar fi transparența barei de stare/navigare (necesită repornire sistem)</string>
   <string name="edge_gesture_service_title">Blochează evenimentele la gesturile de atingere</string>
   <string name="edge_gesture_service_summary">Nu timite la aplicații gesturile de atingere la navigare și gesturile barei de stare</string>
-  <string name="cmlicense_title">Juridic CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">Juridic CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">Afișare eroare model</string>
   <string name="lockpattern_settings_enable_dots_title">Afișare puncte model</string>
   <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
@@ -750,19 +747,6 @@
   <string name="live_display_enhance_color_title">Sporește culorile</string>
   <string name="live_display_enhance_color_summary">Îmbunătățește dinamica culorilor pentru tonuri, peisaje și alte imagini</string>
   <string name="battery_saver_summary_unavailable">Nu este disponibil în timpul încărcării</string>
-  <string name="anonymous_statistics_title">Statistici CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Ajută-ne să facem CyanogenMod mai bun prin trimiterea de rapoarte anonime cu statistici</string>
-  <string name="anonymous_statistics_warning_title">Despre</string>
-  <string name="anonymous_statistics_warning">Optând să trimiteți Statistici CyanogenMod, se permite dezvoltatorilor CyanogenMod să primească date ne-personale pentru a urmări instalările unice la o gama mare de dispozitive. Informația transmisă include un identificator unic, care nu vă compromite intimitatea sau datele personale. Datele sunt trimise la fiecare pornire a dispozitivului.\n\nPentru a vedea un exemplu de date ce se trimit, apăsați pe Previzualizare Date.</string>
-  <string name="enable_reporting_title">Activare raportare</string>
-  <string name="preview_data_title">Previzualizare date</string>
-  <string name="view_stats_title">Vezi statistici</string>
-  <string name="anonymous_learn_more">Află mai multe</string>
-  <string name="preview_id_title">ID unic</string>
-  <string name="preview_device_title">Dispozitiv</string>
-  <string name="preview_version_title">Versiune</string>
-  <string name="preview_country_title">Țara</string>
-  <string name="preview_carrier_title">Operator</string>
   <string name="heads_up_notifications">Atenționare</string>
   <string name="summary_heads_up_enabled">Notificările Pop-up sunt activate</string>
   <string name="summary_heads_up_disabled">Notificările Pop-up sunt dezactivate</string>

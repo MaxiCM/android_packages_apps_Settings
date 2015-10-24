@@ -204,11 +204,6 @@
   <string name="block_notifications_title">Filtriar notificaciones</string>
   <string name="block_notifications_summary">Remanar filtros y notificaciones bloquiaes</string>
   <string name="no_filters_title">Nun hai filtros afitaos</string>
-  <string name="cmupdate_settings_title">Anovamientos CyanogenMod</string>
-  <string name="update_recovery_title">Anovar col recovery de Cyanogen</string>
-  <string name="update_recovery_summary">Anovar recovery colos anovamientos del sistema</string>
-  <string name="update_recovery_on_warning">AVISU: Cuando esta función ta activada, el recovery instaláu va sustituyise por ún incluyíu cola versión actual del SO.\n\nEl recovery va anovase xunto con meyores del sistema, ayudando a garantizar la compatibilidá con futures versiones.\n\n¿Quies activar esta función?</string>
-  <string name="update_recovery_off_warning">AVISU: Cuando esta función está desactivada, el recovery instaláu nun s\'anueva con anovamientos del SO.\n\nVersiones futures del SO podríen non instalase con recoverys non anovaos.\n\n¿Daveres quies deshabilitar esta función?</string>
   <string name="device_model">Modelu de preséu</string>
   <string name="device_name">Nome del preséu</string>
   <string name="build_date">Data de compilación</string>
@@ -631,8 +626,6 @@ Calca pa empareyar el preséu Bluetooth enantes de configurar los disparadores.<
   <string name="pref_force_highend_gfx_summary">Habilitar los efeutos visuales d\'alta resolución, como la barra d\'estáu/navegación tresparente (necesita reaniciar)</string>
   <string name="edge_gesture_service_title">Bloquiar eventos táctiles</string>
   <string name="edge_gesture_service_summary">Nun unviar a les aplicaciones eventos táctiles de la barra d\'estáu y de navegación</string>
-  <string name="cmlicense_title">Llicencia CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">Llicencia CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">Amosar fallu de patrón</string>
   <string name="lockpattern_settings_enable_dots_title">Amosar puntos del patrón</string>
   <string name="unlock_quick_unlock_control_title">Desbloquéu rápidu</string>
@@ -763,10 +756,6 @@ Calca pa empareyar el preséu Bluetooth enantes de configurar los disparadores.<
   <string name="allow_lights_title">Permitir lluces d\'avisos</string>
   <string name="live_display_summary">Optimiza la to pantalla basándose na hora\'l día y les condiciones ambientales p\'ameyorar la llexibilidá y amenorgar el cansanciu de güeyos</string>
   <string name="live_display_color_temperature_title">Temperatura de color</string>
-  <string name="anonymous_learn_more">Deprendi más</string>
-  <string name="preview_device_title">Preséu</string>
-  <string name="preview_version_title">Versión</string>
-  <string name="preview_country_title">País</string>
   <string name="summary_heads_up_enabled">Tán habilitaos los avisos emerxentes</string>
   <string name="summary_heads_up_disabled">Tán deshabilitaos los avisos emerxentes</string>
   <string name="lock_to_cyanogen_title">Proteición de preséu</string>

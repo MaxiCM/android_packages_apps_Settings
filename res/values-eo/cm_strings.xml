@@ -218,11 +218,6 @@
   <string name="block_notifications_title">Filtri atentigojn</string>
   <string name="block_notifications_summary">Mastrumi ignoritajn atentigojn kaj filtrilojn</string>
   <string name="no_filters_title">Neniu filtrilo ŝaltita</string>
-  <string name="cmupdate_settings_title">Ĝisdatigoj de CyanogenMod</string>
-  <string name="update_recovery_title">Ĝistadigi riparadon de Cyanogen</string>
-  <string name="update_recovery_summary">Ĝistadigi riparadon de Cyanogen kun sistemaj ĝistadigadoj</string>
-  <string name="update_recovery_on_warning">ATENTU: Kiam tiu funkcio estas ŝaltita, via instalata riparado estos anstataŭigita per unu el la aktuala sistemo.\n\nVia riparado estos ĝistatigita samtempe kiel la sistemaj ĝisdatigadoj, kaj tio helpos al kongrueco de la estontaj versioj.\n\nĈu vi volas ŝalti tiun  funkcion?</string>
-  <string name="update_recovery_off_warning">ATENTU: Kiam tiu funkcio estas malŝaltita, via instalata riparado ne estos ĝistatigitaj samtempe kiel la sistemaj ĝisdatigadoj.\n\nEstontaj sistemaj ĝistadigoj eble ne instaliĝos kun malmodernaj aŭ propraj versioj de riparadoj\n\nĈu vi volas malŝalti tiun  funkcion?</string>
   <string name="device_model">Modelo de la aparato</string>
   <string name="device_name">Nomo de la aparato</string>
   <string name="build_date">Dato de la eldono</string>
@@ -671,8 +666,6 @@
   <string name="pref_force_highend_gfx_summary">Ŝalta altkvalitajn vidajn efektojn, kiel travidebla statobreto/navigilo (postulas restartigon)</string>
   <string name="edge_gesture_service_title">Bloki gestajn eventojn</string>
   <string name="edge_gesture_service_summary">Ne sendi tuŝajn eventojn por navigilo kaj stata breto al aplikaĵoj</string>
-  <string name="cmlicense_title">Laŭleĝa informo pri CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">Laŭleĝa informo pri CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">Montri ŝablonan eraron</string>
   <string name="lockpattern_settings_enable_dots_title">Montri ŝablonajn punktojn</string>
   <string name="unlock_quick_unlock_control_title">Rapida malŝloso</string>
@@ -827,20 +820,6 @@
   <string name="battery_saver_threshold">Limo de bateria ŝparado</string>
   <string name="battery_saver_summary">Malaltigi rendimenton kaj limigi uzadon de datumoj</string>
   <string name="battery_saver_summary_unavailable">Ne disponeblas dum ŝarĝado</string>
-  <string name="anonymous_statistics_title">Statistikoj pri CyanogenMod</string>
-  <string name="anonymous_statistics_summary">Ebligas plibonigi CyanogenMod, sendante anonimajn statisktikojn pri cimraportoj
-,</string>
-  <string name="anonymous_statistics_warning_title">Pri</string>
-  <string name="anonymous_statistics_warning">Ŝalti la sendadon de statistikoj ebligos la programistojn de CyanogenMod kolekti anonimajn informojn por kalkuli nombron de unikaj instaltadoj per aparato. La senditaj datumoj enhavas unikan identigilon, kiu ne malhelpas al la privateco de viaj datumoj. Datumoj estas pritraktitaj dum ĉiu lanĉado.\n\nPor vidi ekzemplon, elektu \"Antaŭvidi datumojn\".</string>
-  <string name="enable_reporting_title">Ŝalti raportojn</string>
-  <string name="preview_data_title">Antaŭvidi datumojn</string>
-  <string name="view_stats_title">Vidi statistikojn</string>
-  <string name="anonymous_learn_more">Scii pli</string>
-  <string name="preview_id_title">Unika identigilo</string>
-  <string name="preview_device_title">Aparato</string>
-  <string name="preview_version_title">Versio</string>
-  <string name="preview_country_title">Lando</string>
-  <string name="preview_carrier_title">Provizanto</string>
   <string name="heads_up_notifications">Flugantaj atentigoj</string>
   <string name="summary_heads_up_enabled">Ŝpruc-atentigiloj estas ŝaltitaj</string>
   <string name="summary_heads_up_disabled">Ŝpruc-atentigiloj estas malŝaltitaj</string>
