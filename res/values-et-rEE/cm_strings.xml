@@ -224,10 +224,6 @@
   <string name="block_notifications_summary">Halda ignoreeritud teavitusi ja filtreid</string>
   <string name="no_filters_title">Filtreid pole seatud</string>
   <string name="cmupdate_settings_title">CyanogenMod uuendused</string>
-  <string name="update_recovery_title">Uuenda Cyanogeni taasterežiimi</string>
-  <string name="update_recovery_summary">Uuenda recovery süsteemi uuendusega</string>
-  <string name="update_recovery_on_warning">TEADE: Kui see funktsioon on lubatud, siis teie installitud Recovery asendatakse praeguses OS versioonis kaasas olevaga.\n\nSinu Recovery uuendatakse koos süsteemi uuendustega, et tagada ühilduvus tulevaste versioonidega.\n\nKas soovite funktsiooni aktiveerida?</string>
-  <string name="update_recovery_off_warning">HOIATUS: Kui see funktsioon on keelatud, siis teie installitud Recovery ei ajakohastata OS uuendamisel.\n\nTulevased OS ajakohastamised ei pruugi paigalduda vananenud või kohandatud Recovery kasutamisel.\n\nKas soovite funktsiooni keelata?</string>
   <string name="device_model">Seadme mudel</string>
   <string name="device_name">Seadme nimi</string>
   <string name="build_date">Kooste kuupäev</string>
@@ -679,8 +675,6 @@
   <string name="pref_force_highend_gfx_summary">Lubab tipp-visuaalsed efektid, nagu näiteks läbipaistev oleku/navigeerimisriba (vajab taaskäivitamist)</string>
   <string name="edge_gesture_service_title">Blokeeri žesti puudutuse sündmused</string>
   <string name="edge_gesture_service_summary">Ära saada navigatsiooni ja olekuriba puudutuste sündmusi rakendustele</string>
-  <string name="cmlicense_title">CyanogenMod juriidiline info</string>
-  <string name="settings_cmlicense_activity_title">CyanogenMod juriidiline info</string>
   <string name="lockpattern_settings_enable_error_path_title">Näita mustrit tõrget</string>
   <string name="lockpattern_settings_enable_dots_title">Näita mustri punkte</string>
   <string name="unlock_quick_unlock_control_title">Kiire lahtilukustamine</string>
@@ -848,21 +842,6 @@
   <string name="battery_saver_threshold">Aku säästmise tase</string>
   <string name="battery_saver_summary">Vähenda jõudlust ja piira andmeside kasutust taustal</string>
   <string name="battery_saver_summary_unavailable">Ei ole kättesaadav laadimise ajal</string>
-  <string name="anonymous_statistics_title">CyanogenMod statistika</string>
-  <string name="anonymous_statistics_summary">Aita muuta CyanogenMod paremaks, osaledes anonüümse statistika kogumises</string>
-  <string name="anonymous_statistics_warning_title">Üldist</string>
-  <string name="anonymous_statistics_warning">Osaledes CyanogenMod statiatika kogumises, võimaldad isikustamata teabe saatmist
-arendajatele jälgimaks unikaalseid installatsioone üle seadmete. Infole lisatakae unikaalne tunnus,
-mis ei ohusta sinu privaatsust ega isiklikku infot. Teave saadetakse peale igat süateemi üleslaadimiat.\n\nEdastatava info näidise nägemiseks koputa Info eelvaatel.</string>
-  <string name="enable_reporting_title">Luba raporteerimine</string>
-  <string name="preview_data_title">Andmete eelvaade</string>
-  <string name="view_stats_title">Vaata statistikat</string>
-  <string name="anonymous_learn_more">Saa rohkem teada</string>
-  <string name="preview_id_title">Kordumatu ID</string>
-  <string name="preview_device_title">Seade</string>
-  <string name="preview_version_title">Versioon</string>
-  <string name="preview_country_title">Riik</string>
-  <string name="preview_carrier_title">Operaator</string>
   <string name="heads_up_notifications">Etteteavitus</string>
   <string name="summary_heads_up_enabled">Hüpikteavitused lubatud</string>
   <string name="summary_heads_up_disabled">Hüpikteavitused keelatud</string>

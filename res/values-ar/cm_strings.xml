@@ -227,11 +227,6 @@
   <string name="block_notifications_title">تصفية شريط الإعلام</string>
   <string name="block_notifications_summary">إدارة اﻹشعارات التي تم تجاهلها والمرشحات</string>
   <string name="no_filters_title">لم يتم تعيين عوامل التصفية</string>
-  <string name="cmupdate_settings_title">تحديثات CyanogenMod</string>
-  <string name="update_recovery_title">تحديث استعادة Cyanogen (Cyanogen recovery)</string>
-  <string name="update_recovery_summary">تحديث الاستعادة بتحديثات النظام</string>
-  <string name="update_recovery_on_warning">ملحوظة: عندما يتم تمكين هذه الميزة، سيتم استبدال النسخة المستعادة المثبتة بأخرى مضمنة مع الإصدار الحالي من برنامج التشغيل العامل.\n\nوسيتم تحديث نسختك المستعادة مع ترقيات النظام، مما يساعد على ضمان التوافق مع الإصدارات المستقبلية. \n\nهل ترغب في تمكين هذه الميزة؟</string>
-  <string name="update_recovery_off_warning">تحذير: عندما يتم تعطيل هذه الميزة، لن يتم تحديث نسختك المستعادة المثبتة بترقيات النظام.\n\n كما أن ترقيات نظام التشغيل الجديدة قد لا يمكن تثبيتها مع النسخ المستعادة القديمة أو المخصصة. \n\nهل ترغب في تعطيل هذه الميزة؟</string>
   <string name="device_model">طراز الجهاز</string>
   <string name="device_name">اسم الجهاز</string>
   <string name="build_date">تاريخ الإصدار</string>
@@ -682,8 +677,6 @@
   <string name="pref_force_highend_gfx_summary">يُفعّل التأثيرات المرئيّة الّتي تتطلب أداءً عاليًا مثل شفوفيّة شريط الحالة وشريط التنقّل (يتطلب إعادة التشغيل)</string>
   <string name="edge_gesture_service_title">منع إيمائة الأحداث اللمسية</string>
   <string name="edge_gesture_service_summary">لا تُبلِغ التطبيقات بأحداث حركات اللمس فوق شريط الحالة وشريط التّنبيهات</string>
-  <string name="cmlicense_title">قانون CyanogenMod</string>
-  <string name="settings_cmlicense_activity_title">قانون CyanogenMod</string>
   <string name="lockpattern_settings_enable_error_path_title">إظهار خطأ النمط</string>
   <string name="lockpattern_settings_enable_dots_title">إظهار نقاط النمط</string>
   <string name="unlock_quick_unlock_control_title">فتح سريع</string>
@@ -838,20 +831,6 @@
   <string name="battery_saver_threshold">عتبة توفير البطارية</string>
   <string name="battery_saver_summary">خفض الأداء والحد من البيانات الخلفية</string>
   <string name="battery_saver_summary_unavailable">غير متوفر أثناء الشحن</string>
-  <string name="anonymous_statistics_title">إحصائيات CyanogenMod</string>
-  <string name="anonymous_statistics_summary">ساهم في جعل CyanogenMod أفضل بموافقتك على إرسال تقارير بالإحصائيات مجهولة للمصدر</string>
-  <string name="anonymous_statistics_warning_title">حول</string>
-  <string name="anonymous_statistics_warning">الموافقة على المشاركة في إحصائيات CyanogenMod سيسمح بإرسال البيانات غير الشخصية إلى مطوري CyanogenMod لتعقب الإصدارات المثبتة على مختلف الأجهزة كل على حدة. وتشمل المعلومات المقدمة معرفاً فريداً من نوعه، وبالتالي لا تتعرض خصوصيتك أو بياناتك الشخصية للخطر. تُرسل البيانات عند التشغيل في كل مرة. \n\n للاطلاع على مثال للبيانات التي يتم إرسالها، اضغط على معاينة البيانات.
-</string>
-  <string name="enable_reporting_title">تمكين إعداد التقارير</string>
-  <string name="preview_data_title">معاينة البيانات</string>
-  <string name="view_stats_title">عرض الإحصائيات</string>
-  <string name="anonymous_learn_more">لمعرفة المزيد</string>
-  <string name="preview_id_title">معرف فريد</string>
-  <string name="preview_device_title">الجهاز</string>
-  <string name="preview_version_title">الإصدار</string>
-  <string name="preview_country_title">الدولة</string>
-  <string name="preview_carrier_title">شركة المحمول</string>
   <string name="heads_up_notifications">الإشعارات العائمة</string>
   <string name="summary_heads_up_enabled">الإشعارات العائمة مُفعّلة</string>
   <string name="summary_heads_up_disabled">الإشعارات العائمة مُعطَّلة</string>
