@@ -113,6 +113,12 @@
                 android:title="@string/device_name"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Device mem info -->
+        <Preference android:key="device_memory"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/mem_info"
+                android:summary="@string/device_info_default"/>
+
         <!-- Device hardware model -->
         <Preference android:key="device_model"
                 style="?android:preferenceInformationStyle"

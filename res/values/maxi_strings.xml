@@ -25,4 +25,7 @@
     <string name="changelog_title_summary">View recent changes in the ROM</string>
     <string name="changelog_error">Unable to load changelog</string>
 
+    <!-- Device mem info -->
+    <string name="mem_info">RAM</string>
+
 </resources>
