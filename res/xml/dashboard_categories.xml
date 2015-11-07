@@ -105,7 +105,7 @@
                 android:id="@+id/maxi_settings"
                 android:title="@string/maxi_settings_title"
                 android:fragment="com.android.settings.maxi.MaxiUiSettings"
-                android:icon="@drawable/ic_Maxi_settings"
+                android:icon="@drawable/ic_maxi_settings"
                 />
     </dashboard-category>
 
