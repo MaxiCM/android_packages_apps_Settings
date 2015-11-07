@@ -95,6 +95,7 @@ import com.android.settings.lockscreen.LockScreenSettings;
 import com.android.settings.notification.NotificationAppList;
 import com.android.settings.notification.NotificationManagerSettings;
 import com.android.settings.notification.OtherSoundSettings;
+import com.android.settings.maxi.MaxiUiSettings;
 import com.android.settings.profiles.NFCProfileTagCallback;
 import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.quicklaunch.QuickLaunchSettings;
@@ -236,12 +237,11 @@ public class SettingsActivity extends Activity
             R.id.data_usage_settings,
             R.id.sim_settings,
             R.id.wireless_settings,
+			R.id.device_personalization,
+			R.id.pac_settings,
             R.id.device_section,
             R.id.sound_settings,
             R.id.display_and_lights_settings,
-            R.id.lockscreen_settings,
-            R.id.notification_manager,
-            R.id.button_settings,
             R.id.storage_settings,
             R.id.application_settings,
             R.id.battery_settings,
@@ -257,7 +257,6 @@ public class SettingsActivity extends Activity
             R.id.accessibility_settings,
             R.id.print_settings,
             R.id.home_settings,
-            R.id.status_bar_settings,
             R.id.dashboard,
             R.id.privacy_settings_cyanogenmod
     };
