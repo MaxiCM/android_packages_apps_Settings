@@ -61,8 +61,8 @@
     <string name="maxi_disable_hw">GPU Tweak</string>
     <string name="maxi_disable_hw_summary">Use GPU for Composing Screen.Might Fix Video Playback Issues for Some Devices That have Poor HW decoding Support.WARNING!Opening Developer Options Overrides This Switch</string>
     <string name="maxi_force_graphics_ui_summary">Force The Gpu to Be used instead of CPU for 2D drawings.Improves performance.Might Affect Battery.WARNING!Opening Developer Options Overrides This Switch</string>
-<string name="warning_gpu">Warning!!</string>	
-<string name="message_gpu">If You Enter Developer Options, This Option will Reset itself</string>
+    <string name="warning_gpu">Warning!!</string>	
+    <string name="message_gpu">If You Enter Developer Options, This Option will Reset itself</string>
 
     <!-- Performance Settings : Processor settings sub items -->
     <string name="cpu_cur_freq_title">Current CPU frequency</string>

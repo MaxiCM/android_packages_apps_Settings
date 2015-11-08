@@ -35,26 +35,28 @@
             android:title="@string/io_scheds_title" />
 
         <PreferenceCategory
-        android:key="perf_graphics_prefs"
-        android:title="@string/graphics_title">
+            android:key="perf_graphics_prefs"
+            android:title="@string/graphics_title">
 
         <SwitchPreference
             android:key="pref_force_highend_gfx"
             android:title="@string/pref_force_highend_gfx_title"
             android:summary="@string/pref_force_highend_gfx_summary" />
+
 	<SwitchPreference
-                android:key="force_hw_ui"
-                android:title="@string/maxi_force_graphics_ui"
-                android:summary="@string/maxi_force_graphics_ui_summary"/>
+            android:key="force_hw_ui"
+            android:title="@string/maxi_force_graphics_ui"
+            android:summary="@string/maxi_force_graphics_ui_summary"/>
+
         <SwitchPreference
-                android:key="disable_overlays"
-                android:title="@string/maxi_disable_hw"
-                android:summary="@string/maxi_disable_hw_summary"/>
+            android:key="disable_overlays"
+            android:title="@string/maxi_disable_hw"
+            android:summary="@string/maxi_disable_hw_summary"/>
 	</PreferenceCategory>
 
         <PreferenceCategory 
-   	 android:key="proc_limit"
-    	 android:title="@string/background_apps">
+   	    android:key="proc_limit"
+    	    android:title="@string/background_apps">
 
         <ListPreference
             android:key="app_process_limit"
@@ -67,10 +69,11 @@
         <PreferenceCategory 
    	 android:key="maxi_boot"
     	 android:title="@string/maxi_boot">
+
         <SwitchPreference
-        android:key="enable_quickboot"
-        android:title="@string/enable_quickboot_title"
-        android:summary="@string/enable_quickboot_summary" />
+         android:key="enable_quickboot"
+         android:title="@string/enable_quickboot_title"
+         android:summary="@string/enable_quickboot_summary" />
         </PreferenceCategory>	
 
 </PreferenceScreen>

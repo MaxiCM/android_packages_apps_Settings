@@ -62,11 +62,4 @@
             settings:advanced="true"
             />
 
-     <PreferenceScreen
-             android:id="@+id/maxi_performance_settings"
-             android:title="@string/performance_settings"
-             android:fragment="com.android.settings.maxi.Maxiperformance"
-             android:icon="@drawable/ic_maxi_performance_tint"
-                />
-
 </PreferenceScreen>
