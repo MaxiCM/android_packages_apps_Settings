@@ -17,7 +17,6 @@
 package com.android.settings.maxi;
 
 import android.app.Activity;
-
 import android.app.ActivityManager;
 import android.app.ActivityManagerNative;
 import android.app.AlertDialog;
@@ -56,7 +55,6 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.util.Log;
 import android.widget.Switch;
-
 import com.android.settings.DevelopmentSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -79,22 +77,8 @@ import java.util.HashSet;
 import java.util.List;
 
 
-
 public class Maxiperformance extends SettingsPreferenceFragment  implements Preference.OnPreferenceChangeListener , SwitchBar.OnSwitchChangeListener  {
 
-private PreferenceScreen mProcessor;
-private PreferenceScreen mIOScheduler;
-private ListPreference mSystemCategory;
-private PreferenceCategory mSystemCategory;
-private SwitchPreference mForceHighEndGfx;
-private SwitchPreference mForceHardwareUi;
-private SwitchPreference mDisableOverlays;
-private PreferenceCategory mBoot;
-private SwitchBar mSwitchBar;
-
-private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
-private final ArrayList<SwitchPreference> mResetSwitchPrefs = new ArrayList<SwitchPreference>();
-private final HashSet<Preference> mDisabledPrefs = new HashSet<Preference>();
 private static final String CATEGORY_PROFILES = "pref_perf_profile";
 private static final String FORCE_HIGHEND_GFX_PREF = "pref_force_highend_gfx";
 private static final String CATEGORY_IOSCHEDUlER = "ioscheduler";
@@ -125,31 +109,39 @@ private PowerManager mPowerManager;
 private SharedPreferences mDevelopmentPreferences;
 private SwitchPreference mQuickBoot;
 private ListPreference mAppProcessLimit;
+private PreferenceScreen mProcessor;
+private PreferenceScreen mIOScheduler;
+private ListPreference mSystemCategory;
+private SwitchPreference mForceHighEndGfx;
+private SwitchPreference mForceHardwareUi;
+private SwitchPreference mDisableOverlays;
+private PreferenceCategory mBoot;
+private SwitchBar mSwitchBar;
 
-
+private final ArrayList<Preference> mAllPrefs = new ArrayList<Preference>();
+private final ArrayList<SwitchPreference> mResetSwitchPrefs = new ArrayList<SwitchPreference>();
+private final HashSet<Preference> mDisabledPrefs = new HashSet<Preference>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+	
         mPerfProfileEntries= getResources().getStringArray(
                 com.android.internal.R.array.perf_profile_entries);
         mPerfProfileValues = getResources().getStringArray(
                 com.android.internal.R.array.perf_profile_values);
-	
 
         addPreferencesFromResource(R.xml.maxi_performance_settings);
 	PreferenceScreen prefSet = getPreferenceScreen();
 	mProcessor = (PreferenceScreen) prefSet.findPreference(CATEGORY_PROCESSOR);
         mIOScheduler = (PreferenceScreen) prefSet.findPreference(CATEGORY_IOSCHEDUlER);
 	mPowerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
-
 	mSystemCategory = (ListPreference) findPreference(CATEGORY_PROFILES);
 	mForceHighEndGfx = (SwitchPreference) prefSet.findPreference(FORCE_HIGHEND_GFX_PREF);
 	PreferenceCategory category = (PreferenceCategory) prefSet.findPreference(CATEGORY_GRAPHICS);
-        mBoot = (PreferenceCategory) prefSet.findPreference(BOOT_OPTIONS);
-
-
+	mBoot = (PreferenceCategory) prefSet.findPreference(BOOT_OPTIONS);
+	
+	//Look For Power Profiles
         if (!mPowerManager.hasPowerProfiles()) {
 	prefSet.removePreference(mSystemCategory);
 	}
@@ -198,8 +190,10 @@ private ListPreference mAppProcessLimit;
         } else  {	
             prefSet.removePreference(mIOScheduler);
 	}		
-	mPerformanceProfileObserver = new PerformanceProfileObserver(new Handler());		
-	}	
+	mPerformanceProfileObserver = new PerformanceProfileObserver(new Handler());	
+	
+	}
+	
     
 	@Override
     public void onResume() {
@@ -248,11 +242,13 @@ private ListPreference mAppProcessLimit;
         }
         mSystemCategory.setSummary(String.format("%s", summary));
     }
+
     private class PerformanceProfileObserver extends ContentObserver {
         public PerformanceProfileObserver(Handler handler) {
             super(handler);
         	}
 	}
+
  	@Override
     	public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
         if (preference == mForceHighEndGfx) {
@@ -269,11 +265,11 @@ private ListPreference mAppProcessLimit;
 	@Override
     	public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (newValue != null) {
+		
             if (preference == mSystemCategory) {
                 mPowerManager.setPowerProfile(String.valueOf(newValue));
                 updatePerformanceSummary();
                 return true;
-            }
 	}
 	else if (preference == mQuickBoot) {
             Settings.System.putInt(getActivity().getContentResolver(), ENABLE_QUICKBOOT,
@@ -282,7 +278,7 @@ private ListPreference mAppProcessLimit;
 	else if (preference == mAppProcessLimit) {
             writeAppProcessLimitOptions(newValue);
             return true;
-        }
+	    }
 	 else if (preference == mForceHardwareUi) {
             writeHardwareUiOptions();
         } 
@@ -291,8 +287,8 @@ private ListPreference mAppProcessLimit;
         	}
 	}	
 	        return false;		
+    }
 
-    
    @Override
     public void onStop() {
         super.onStop();
