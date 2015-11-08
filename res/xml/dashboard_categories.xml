@@ -300,18 +300,18 @@
 
         <!-- Performance -->
         <dashboard-tile
-                android:id="@+id/performance_settings"
-                android:title="@string/performance_settings_title"
-                android:fragment="com.android.settings.cyanogenmod.PerformanceSettings"
-                android:icon="@drawable/ic_settings_performance"
+             android:id="@+id/maxi_performance_settings"
+             android:title="@string/performance_settings"
+             android:fragment="com.android.settings.maxi.Maxiperformance"
+             android:icon="@drawable/ic_maxi_performance_tint"
                 />
 
         <!-- Development -->
         <dashboard-tile
-               android:id="@+id/maxi_performance_settings"
-               android:title="@string/performance_settings"
-               android:fragment="com.android.settings.maxi.Maxiperformance"
-               android:icon="@drawable/ic_maxi_performance_tint"
+                android:id="@+id/development_settings"
+                android:title="@string/development_settings_title"
+                android:fragment="com.android.settings.DevelopmentSettings"
+                android:icon="@drawable/ic_settings_development"
                 />
 
         <!-- About Device -->
