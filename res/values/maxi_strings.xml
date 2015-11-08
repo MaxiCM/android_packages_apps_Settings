@@ -27,5 +27,9 @@
 
     <!-- Device mem info -->
     <string name="mem_info">RAM</string>
+	
+    <!-- Updater -->
+    <string name="updater_title">Updates</string>
+    <string name="updater_summary">Check for updates and more</string>
 
 </resources>
