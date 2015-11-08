@@ -32,4 +32,45 @@
     <string name="updater_title">Updates</string>
     <string name="updater_summary">Check for updates and more</string>
 
+    <!--Performance Settings--> 	
+    <string name="performance_settings">Performance</string>
+    <string name="performance_settings_warning">No Profiles Found</string>
+    <string name="performance_settings_warning_title">Proceed with caution</string>
+
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">I/O scheduler</string>
+
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">I/O scheduler</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
+    <!-- Performance Settings : Set on boot option -->
+    <string name="performance_set_on_boot">Set on boot</string>
+    <string name="performance_set_on_boot_summary">Restore the settings on boot</string>
+
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title">Processor</string>
+
+    <!-- Performance Settings-->
+    <string name="background_apps">Apps</string>
+    <string name="maxi_boot">Boot Options</string>
+
+    <!--Graphics-->
+    <string name="graphics_title">Graphic Tweaks</string>
+    <string name="maxi_force_graphics_ui">Force GPU</string>
+    <string name="maxi_disable_hw">GPU Tweak</string>
+    <string name="maxi_disable_hw_summary">Use GPU for Composing Screen.Might Fix Video Playback Issues for Some Devices That have Poor HW decoding Support.WARNING!Opening Developer Options Overrides This Switch</string>
+    <string name="maxi_force_graphics_ui_summary">Force The Gpu to Be used instead of CPU for 2D drawings.Improves performance.Might Affect Battery.WARNING!Opening Developer Options Overrides This Switch</string>
+<string name="warning_gpu">Warning!!</string>	
+<string name="message_gpu">If You Enter Developer Options, This Option will Reset itself</string>
+
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">Current CPU frequency</string>
+    <string name="cpu_governors_title">CPU governor</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
+    <string name="cpu_min_freq_title">Minimum CPU frequency</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
+    <string name="cpu_max_freq_title">Maximum CPU frequency</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
+
 </resources>
