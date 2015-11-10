@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.maxicm;
+package com.android.settings.maxi;
 
 import android.app.Fragment;
 import android.os.Bundle;

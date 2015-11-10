@@ -50,7 +50,7 @@
         <PreferenceScreen android:key="changelog"
                 android:title="@string/changelog_title"
                 android:summary="@string/changelog_title_summary"
-                android:fragment="com.android.settings.maxicm.ChangeLog" />
+                android:fragment="com.android.settings.maxi.ChangeLog" />
 
         <!-- Advanced mode -->
         <com.android.settings.cyanogenmod.CMSecureSettingSwitchPreference
