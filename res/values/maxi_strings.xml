@@ -73,4 +73,7 @@
     <string name="cpu_max_freq_title">Maximum CPU frequency</string>
     <string name="cpu_max_freq_summary" translatable="false">%s</string>
 
+    <!-- Force fast charge -->
+    <string name="pref_force_fast_charge_title">Force fast charge</string>
+
 </resources>
