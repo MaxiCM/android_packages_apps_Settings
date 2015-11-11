@@ -16,6 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Maxi Settings screens  -->
+    <string name="maxi_settings_title">Maxi Settings</string>
+
     <!-- Maxi Version -->
     <string name="maxi_version">MaxiCM version</string>
     <string name="maxi_version_default">Unknown</string>
