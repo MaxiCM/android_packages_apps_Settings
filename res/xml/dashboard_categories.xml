@@ -95,17 +95,25 @@
 
     </dashboard-category>
 	
-    <!-- Personalization -->
+    <!-- MaxiCM Settings -->
     <dashboard-category
-            android:id="@+id/device_personalization"
-            android:title="@string/header_category_personalization" >
+            android:id="@+id/maxi_settings"
+            android:title="@string/maxi_settings_title" >
 
-        <!-- Maxi Settings -->
+        <!-- MaxiCM UI Settings -->
         <dashboard-tile
-                android:id="@+id/maxi_settings"
-                android:title="@string/maxi_settings_title"
+                android:id="@+id/maxi_ui_settings"
+                android:title="@string/maxi_ui_settings_title"
                 android:fragment="com.android.settings.maxi.MaxiUiSettings"
                 android:icon="@drawable/ic_maxi_settings"
+                />
+
+        <!-- MaxiCM Performance Settings -->
+        <dashboard-tile
+             android:id="@+id/maxi_performance_settings"
+             android:title="@string/maxi_performance_settings"
+             android:fragment="com.android.settings.maxi.Maxiperformance"
+             android:icon="@drawable/ic_maxi_performance_tint"
                 />
     </dashboard-category>
 
@@ -296,14 +304,6 @@
                 android:title="@string/print_settings"
                 android:fragment="com.android.settings.print.PrintSettingsFragment"
                 android:icon="@drawable/ic_settings_print"
-                />
-
-        <!-- Performance -->
-        <dashboard-tile
-             android:id="@+id/maxi_performance_settings"
-             android:title="@string/performance_settings"
-             android:fragment="com.android.settings.maxi.Maxiperformance"
-             android:icon="@drawable/ic_maxi_performance_tint"
                 />
 
         <!-- Development -->

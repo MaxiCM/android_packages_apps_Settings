@@ -21,7 +21,10 @@
     <string name="maxi_version_default">Unknown</string>
     
     <!-- MaxiCM UI Settings -->
-    <string name="maxi_settings_title">MaxiCM UI Settings</string>
+    <string name="maxi_ui_settings_title">MaxiCM UI Settings</string>
+   
+    <!-- MaxiCM Settings -->
+    <string name="maxi_settings_title">MaxiCM Settings</string>
 
     <!-- ChangeLog -->
     <string name="changelog_title">Changelog</string>
@@ -35,8 +38,8 @@
     <string name="updater_title">Updates</string>
     <string name="updater_summary">Check for updates and more</string>
 
-    <!--Performance Settings--> 	
-    <string name="performance_settings">Performance</string>
+    <!--MaxiCM Performance Settings--> 	
+    <string name="maxi_performance_settings">MaxiCM Performance Settings</string>
     <string name="performance_settings_warning">No Profiles Found</string>
     <string name="performance_settings_warning_title">Proceed with caution</string>
 
