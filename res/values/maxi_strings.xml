@@ -16,12 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Maxi Settings screens  -->
-    <string name="maxi_settings_title">Maxi Settings</string>
-
     <!-- Maxi Version -->
     <string name="maxi_version">MaxiCM version</string>
     <string name="maxi_version_default">Unknown</string>
+    
+    <!-- MaxiCM UI Settings -->
+    <string name="maxi_settings_title">MaxiCM UI Settings</string>
 
     <!-- ChangeLog -->
     <string name="changelog_title">Changelog</string>
