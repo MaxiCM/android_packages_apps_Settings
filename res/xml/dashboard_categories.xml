@@ -97,7 +97,7 @@
 	
     <!-- MaxiCM Settings -->
     <dashboard-category
-            android:id="@+id/maxi_settings"
+            android:id="@+id/device_personalization"
             android:title="@string/maxi_settings_title" >
 
         <!-- MaxiCM UI Settings -->
