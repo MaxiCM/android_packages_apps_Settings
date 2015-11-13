@@ -16,7 +16,7 @@
     android:title="@string/maxi_performance_settings"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-        <!-- Performance -->
+    <!-- Performance -->
     <ListPreference
             android:key="pref_perf_profile"
             android:dialogTitle="@string/perf_profile_title"
@@ -29,10 +29,15 @@
             android:summary="@string/autoperf_summary"
             android:defaultValue="true" />
 
+    <PreferenceCategory
+        android:key="perf_system_prefs"
+        android:title="@string/accessibility_system_title">
+
         <PreferenceScreen
             android:key="ioscheduler"
             android:fragment="com.android.settings.maxi.IOScheduler"
             android:title="@string/io_scheds_title" />
+    </PreferenceCategory>
 
         <PreferenceCategory
             android:key="perf_graphics_prefs"
