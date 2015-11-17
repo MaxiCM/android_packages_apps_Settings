@@ -28,8 +28,8 @@
                 android:title="@string/updater_title"
                 android:summary="@string/updater_summary">
         <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.maxi.ota"
-                android:targetClass="com.maxi.center.OTACenter" />
+                android:targetPackage="com.ota.updates"
+                android:targetClass="com.ota.updates.OTAUpdates" />
         </PreferenceScreen>
 		
         <!-- System update settings - launches activity -->
