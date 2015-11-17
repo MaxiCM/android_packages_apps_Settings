@@ -115,6 +115,13 @@
              android:fragment="com.android.settings.maxi.Maxiperformance"
              android:icon="@drawable/ic_maxi_performance_tint"
                 />
+        <!-- MaxiCM Updater OTA -->                
+        <dashboard-title
+             android:id="@+id/maxi_updater"
+             android:title="@string/maxi_updater"
+             android:targetPackage="com.ota.updates"
+             android:icon="@drawable/ic_maxi_updater_tint"
+                />
     </dashboard-category>
 
     <!-- DEVICE -->

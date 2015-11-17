@@ -22,6 +22,10 @@
     
     <!-- MaxiCM UI Settings -->
     <string name="maxi_ui_settings_title">MaxiCM UI Settings</string>
+    
+    
+    <!-- MaxiCM Updater -->
+    <string name="maxi_updater">MaxiUpdater</string>
    
     <!-- MaxiCM Settings -->
     <string name="maxi_settings_title">MaxiCM Settings</string>
