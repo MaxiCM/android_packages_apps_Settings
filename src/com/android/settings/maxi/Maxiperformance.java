@@ -59,6 +59,8 @@ import com.android.settings.DevelopmentSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.maxi.IOScheduler;
+import com.android.settings.maxi.Processor;
+
 import com.android.settings.Utils;
 import com.android.settings.SettingsActivity;
 import com.android.settings.widget.SwitchBar;
@@ -134,7 +136,7 @@ private final HashSet<Preference> mDisabledPrefs = new HashSet<Preference>();
         addPreferencesFromResource(R.xml.maxi_performance_settings);
 	PreferenceScreen prefSet = getPreferenceScreen();
 	mProcessor = (PreferenceScreen) prefSet.findPreference(CATEGORY_PROCESSOR);
-        mIOScheduler = (PreferenceScreen) prefSet.findPreference(CATEGORY_IOSCHEDUlER);
+    mIOScheduler = (PreferenceScreen) prefSet.findPreference(CATEGORY_IOSCHEDUlER);
 	mPowerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
 	mSystemCategory = (ListPreference) findPreference(CATEGORY_PROFILES);
 	mForceHighEndGfx = (SwitchPreference) prefSet.findPreference(FORCE_HIGHEND_GFX_PREF);

@@ -33,6 +33,11 @@
         android:key="perf_system_prefs"
         android:title="@string/accessibility_system_title">
 
+    <PreferenceScreen
+            android:key="processor"
+            android:fragment="com.android.settings.maxi.Processor"
+            android:title="@string/processor_title" />
+
         <PreferenceScreen
             android:key="ioscheduler"
             android:fragment="com.android.settings.maxi.IOScheduler"
