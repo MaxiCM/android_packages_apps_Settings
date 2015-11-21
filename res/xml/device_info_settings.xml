@@ -21,16 +21,6 @@
         <PreferenceScreen android:key="maxi_banner"
                 android:enabled="false"
                 android:layout="@layout/maxi_banner" />
-				
-        <!-- Updater -->
-        <PreferenceScreen
-                android:key="update_settings"
-                android:title="@string/updater_title"
-                android:summary="@string/updater_summary">
-        <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.ota.updates"
-                android:targetClass="com.ota.updates.OTAUpdates" />
-        </PreferenceScreen>
 		
         <!-- System update settings - launches activity -->
         <PreferenceScreen android:key="system_update_settings"
