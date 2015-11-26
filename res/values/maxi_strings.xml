@@ -78,4 +78,8 @@
     <!-- Fast charge -->
     <string name="pref_force_fast_charge_title">Fast charge</string>
 
+    <!-- Pie control -->
+    <string name="pie_control_title">Pie control</string>
+    <string name="pie_control_summary">Disables navigation bar</string>
+
 </resources>

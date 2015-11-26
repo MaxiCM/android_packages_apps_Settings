@@ -17,6 +17,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
+        android:key="pie_state"
+        android:title="@string/pie_control_title"
+        android:summary="@string/pie_control_summary"
+        android:defaultValue="false"
+        android:defaultValue="false"
+        android:dependency="pie_state" />
+
     <SwitchPreference
         android:key="disable_nav_keys"
         android:title="@string/disable_navkeys_title"
@@ -32,7 +40,8 @@
 
     <PreferenceCategory
         android:key="navigation_bar_category"
-        android:title="@string/navigation_bar_category" >
+        android:title="@string/navigation_bar_category"
+        android:dependency="pie_state" > 
 
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="navigation_bar_left"
