@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015 MaxiCM
-
+ 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
+ 
           http://www.apache.org/licenses/LICENSE-2.0
-
+ 
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,6 +15,69 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+ 
   <string name="maxi_version">Versión de MaxiCM</string>
   <string name="maxi_version_default">Desconocida</string>
+ 
+<!-- MaxiCM UI Settings -->
+    <string name="maxi_ui_settings_title">Ajustes UI de MaxiCM</string>
+   
+    <!-- MaxiCM Settings -->
+    <string name="maxi_settings_title">Ajustes de MaxiCM</string>
+ 
+    <!-- ChangeLog -->
+    <string name="changelog_title">Lista de Cambios</string>
+    <string name="changelog_title_summary">Revisar cambios recientes en MaxiCM</string>
+    <string name="changelog_error">No se puede cargar la lista de cambios</string>
+ 
+    <!-- Device mem info -->
+    <string name="mem_info">RAM</string>
+ 
+    <!--MaxiCM Performance Settings-->  
+    <string name="maxi_performance_settings">Ajustes de rendimiento de MaxiCM</string>
+    <string name="performance_settings_warning">No se encontraron perfiles</string>
+    <string name="performance_settings_warning_title">Proceder con precaución</string>
+ 
+    <!-- Performance Settings : I/O scheduler settings title -->
+    <string name="io_scheds_title">I/O scheduler</string>
+ 
+    <!-- Performance Settings : I/O scheduler settings sub items -->
+    <string name="io_sched_title">Planificador I/O</string>
+    <string name="io_sched_summary" translatable="false">%S</string>
+    <!-- Performance Settings : Set on boot option -->
+    <string name="performance_set_on_boot">Aplicar en el inicio</string>
+    <string name="performance_set_on_boot_summary">Restaurar ajustes en el inicio</string>
+ 
+    <!-- Performance Settings : Processor Settings -->
+    <!-- Performance Settings : Processor settings title -->
+    <string name="processor_title">Procesador</string>
+ 
+    <!-- Performance Settings-->
+    <string name="background_apps">Aplicaciones</string>
+    <string name="maxi_boot">Ajustes de inicio</string>
+ 
+    <!--Graphics-->
+    <string name="graphics_title">Optimizaciones gráficas</string>
+    <string name="maxi_force_graphics_ui">Forzar GPU</string>
+    <string name="maxi_disable_hw">Optimizaciones de la GPU</string>
+    <string name="maxi_disable_hw_summary">Utilizar GPU para componer la pantalla.</string>
+    <string name="maxi_force_graphics_ui_summary">Forzar la GPU para utilizarse en lugar de la CPU para dibujos 2D</string>
+    <string name="warning_gpu">¡Precaución!</string>  
+    <string name="message_gpu">Si utiliza opciones de desarrollador, esta opción se restablecerá</string>
+ 
+    <!-- Performance Settings : Processor settings sub items -->
+    <string name="cpu_cur_freq_title">Frecuencia actual de la CPU</string>
+    <string name="cpu_governors_title">Gobernador de CPU</string>
+    <string name="cpu_governors_summary" translatable="false">%S</string>
+    <string name="cpu_min_freq_title">Frecuencia mínima de la CPU</string>
+    <string name="cpu_min_freq_summary" translatable="false">%s</string>
+    <string name="cpu_max_freq_title">Frecuencia máxima de la CPU</string>
+    <string name="cpu_max_freq_summary" translatable="false">%s</string>
+ 
+    <!-- Fast charge -->
+    <string name="pref_force_fast_charge_title">Carga rápida</string>
+ 
+    <!-- Pie control -->
+    <string name="pie_control_title">Controles PIE</string>
+    <string name="pie_control_summary">Deshabilitar la barra de navegación</string>
 </resources>
