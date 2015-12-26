@@ -39,7 +39,7 @@
     <string name="performance_settings_warning_title">Proceder con precaución</string>
  
     <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">I/O scheduler</string>
+    <string name="io_scheds_title">Planificador I/O</string>
  
     <!-- Performance Settings : I/O scheduler settings sub items -->
     <string name="io_sched_title">Planificador I/O</string>
