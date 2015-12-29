@@ -115,6 +115,18 @@
              android:fragment="com.android.settings.maxi.Maxiperformance"
              android:icon="@drawable/ic_maxi_performance_tint"
                 />
+
+        <!-- SuperSU -->
+        <dashboard-tile
+            android:id="@+id/supersu_settings"
+            android:icon="@drawable/ic_settings_supersu"
+            android:title="@string/supersu_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="eu.chainfire.supersu"
+                android:targetClass="eu.chainfire.supersu.MainActivity" />
+        </dashboard-tile>
+
     </dashboard-category>
 
     <!-- DEVICE -->
@@ -313,17 +325,6 @@
                 android:fragment="com.android.settings.DevelopmentSettings"
                 android:icon="@drawable/ic_settings_development"
                 />
-
-        <!-- SuperSU -->
-        <dashboard-tile
-            android:id="@+id/supersu_settings"
-            android:icon="@drawable/ic_settings_supersu"
-            android:title="@string/supersu_title">
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="eu.chainfire.supersu"
-                android:targetClass="eu.chainfire.supersu.MainActivity" />
-        </dashboard-tile>
 
         <!-- About Device -->
         <dashboard-tile
