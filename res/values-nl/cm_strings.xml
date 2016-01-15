@@ -766,7 +766,7 @@
   <string name="lockscreen_targets_message">Snelkoppelingen vergrendelingsscherm</string>
   <string name="lockscreen_default_target">Standaard</string>
   <string name="lockscreen_none_target">Geen</string>
-  <string name="lockscreen_message">Tik recht of links op een pictogram om de snelkoppeling opnieuw toe te wijzen.</string>
+  <string name="lockscreen_message">Tik links of rechts op een pictogram om de snelkoppeling opnieuw toe te wijzen.</string>
   <string name="lockscreen_choose_action_title">Actie selecteren</string>
   <string name="lockscreen_visualizer_title">Muziekvisualisaties weergeven</string>
   <string name="nfc_title_category">NFC</string>
@@ -847,6 +847,8 @@
   <string name="live_display_color_profile_cinema_summary">Perfecte kleurweergave voor media</string>
   <string name="live_display_color_profile_astronomy_title">Astronomie</string>
   <string name="live_display_color_profile_astronomy_summary">Diepe rode kleuren voor nachtweergave</string>
+  <string name="live_display_color_profile_basic_title">Basis</string>
+  <string name="live_display_color_profile_basic_summary">Scherm ongekalibreerd gebruiken</string>
   <string name="battery_saver_threshold">Drempelwaarde energiebesparing</string>
   <string name="battery_saver_summary">Prestaties verminderen en achtergrondgegevens beperken</string>
   <string name="battery_saver_summary_unavailable">Niet beschikbaar bij opladen</string>
@@ -876,6 +878,11 @@
   <string name="factory_reset_erase_sd_card_summary">Alle gegevens op de SD-kaart wissen, inclusief muziek en foto\'s</string>
   <string name="factory_reset_warning_text_reset_now">NU OPNIEUW INSTELLEN</string>
   <string name="factory_reset_warning_text_message">Al uw accounts, apps, app-gegevens en systeeminstellingen op dit apparaat worden gewist. Dit kan niet ongedaan worden gemaakt.</string>
+  <string name="wifi_show_all">Alles tonen</string>
+  <string name="wifi_show_protected">Beveiligde wifi-netwerken tonen</string>
+  <string name="wifi_show_open">Openbare wifi-netwerken tonen</string>
+  <string name="wifi_empty_list_protected">Geen beveiligde wifi-netwerken</string>
+  <string name="wifi_empty_list_open">Geen openbare wifi-netwerken</string>
   <string name="wifi_setting_countrycode_title">Wifi-regiocode</string>
   <string name="wifi_setting_countrycode_summary">Regiocode opgeven voor wifi</string>
   <string name="wifi_setting_countrycode_error">Kan regiocode niet instellen.</string>

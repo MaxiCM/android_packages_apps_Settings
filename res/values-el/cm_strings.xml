@@ -847,6 +847,8 @@
   <string name="live_display_color_profile_cinema_summary">Τέλεια αναπαράσταση χρωμάτων για πολυμέσα</string>
   <string name="live_display_color_profile_astronomy_title">Αστρονομία</string>
   <string name="live_display_color_profile_astronomy_summary">Βαθύ κόκκινο για διατήρηση της νυχτερινής όρασης</string>
+  <string name="live_display_color_profile_basic_title">Βασικό</string>
+  <string name="live_display_color_profile_basic_summary">Χρήση της οθόνης χωρίς ρύθμιση</string>
   <string name="battery_saver_threshold">Όριο εξοικονόμησης μπαταρίας</string>
   <string name="battery_saver_summary">Μείωση της απόδοσης και περιορισμός των δεδομένων παρασκηνίου</string>
   <string name="battery_saver_summary_unavailable">Δεν είναι διαθέσιμο κατά τη φόρτιση</string>
@@ -876,6 +878,11 @@
   <string name="factory_reset_erase_sd_card_summary">Διαγραφή όλων των δεδομένων στην κάρτα SD, συμπεριλαμβάνοντας μουσική και φωτογραφίες</string>
   <string name="factory_reset_warning_text_reset_now">ΕΠΑΝΑΦΟΡΑ ΤΩΡΑ</string>
   <string name="factory_reset_warning_text_message">Όλοι οι λογαριασμοί, οι εφαρμογές, τα δεδομένα εφαρμογών και οι ρυθμίσεις συστήματος θα διαγραφούν από την συσκευή. Αυτή η ενέργεια είναι μη αναστρέψιμη.</string>
+  <string name="wifi_show_all">Εμφάνιση όλων</string>
+  <string name="wifi_show_protected">Εμφάνιση προστατευόμενων δικτύων</string>
+  <string name="wifi_show_open">Εμφάνιση ανοικτών δικτύων</string>
+  <string name="wifi_empty_list_protected">Κανένα προστατευόμενο δίκτυο Wi\u2011Fi</string>
+  <string name="wifi_empty_list_open">Κανένα ανοικτό δίκτυο Wi\u2011Fi</string>
   <string name="wifi_setting_countrycode_title">Κωδικός περιοχής Wi-Fi</string>
   <string name="wifi_setting_countrycode_summary">Προσδιορίστε τον κωδικό περιοχής για το Wi-Fi</string>
   <string name="wifi_setting_countrycode_error">Πρόβλημα κατά τη ρύθμιση του κωδικού περιοχής.</string>

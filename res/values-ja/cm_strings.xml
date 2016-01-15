@@ -219,7 +219,7 @@
   <string name="sms_security_check_limit_summary_none">アプリは許可無くメッセージを送信することはできません</string>
   <string name="sms_security_check_limit_none">なし</string>
   <string name="spam_added_title">%1$sに追加しました</string>
-  <string name="spam_last_blocked_title">%1$sを前回ブロックしました</string>
+  <string name="spam_last_blocked_title">最後にブロックしたのは%1$sです</string>
   <string name="block_notifications_title">通知のフィルタリング</string>
   <string name="block_notifications_summary">無視する通知やフィルターを管理する</string>
   <string name="no_filters_title">フィルターが設定されていません</string>
@@ -227,9 +227,9 @@
   <string name="device_name">端末名</string>
   <string name="build_date">ビルド日時</string>
   <string name="phone_service_state">音声: <xliff:g id="voice_state">%1$s</xliff:g> データ: <xliff:g id="data_state">%2$s</xliff:g></string>
-  <string name="double_tap_to_wake_title">ダブルタップでスリープ解除</string>
+  <string name="double_tap_to_wake_title">ダブルタップしてスリープ解除</string>
   <string name="double_tap_to_wake_summary">画面をダブルタップしてディスプレイを点灯する</string>
-  <string name="proximity_wake_title">誤起動を防止</string>
+  <string name="proximity_wake_title">誤作動を防止</string>
   <string name="proximity_wake_summary">画面をスリープ解除する前に接近センサーを確認する</string>
   <string name="privacy_settings_cyanogenmod_title">プライバシー</string>
   <string name="privacy_guard_default_title">デフォルトで有効化</string>
@@ -259,7 +259,7 @@
   <string name="device_hostname">端末のホスト名</string>
   <string name="development_shortcut_title">開発用ショートカット</string>
   <string name="development_shortcut_summary">最近使ったアプリ一覧でアプリの管理のショートカットを有効にする</string>
-  <string name="double_tap_to_sleep_title">ダブルタップでスリープ</string>
+  <string name="double_tap_to_sleep_title">ダブルタップしてスリープ</string>
   <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップしてディスプレイを消灯する</string>
   <string name="wake_when_plugged_or_unplugged_title">接続時にスリープ解除</string>
   <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断したときに画面を点灯する</string>
@@ -336,7 +336,7 @@
   <string name="notification_light_default_value">デフォルト</string>
   <string name="notification_light_missed_call_title">不在着信</string>
   <string name="notification_light_voicemail_title">ボイスメール</string>
-  <string name="notification_light_screen_on">画面点灯時に点灯</string>
+  <string name="notification_light_screen_on">画面点灯時も点灯</string>
   <string name="notification_light_use_multiple_leds">マルチLED</string>
   <string name="keywords_lights_brightness_level">暗く led 明るさ</string>
   <string name="notification_ringtone_title_cm">通知音</string>
@@ -516,7 +516,7 @@
   <string name="profile_setup_actions_description">このプロファイルが有効になったときの動作を設定してください</string>
   <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g>（<xliff:g id="count">%2$s</xliff:g>使用）</string>
   <string name="app_ops_allowed_count"><xliff:g id="count" example="2 times">%s</xliff:g>許可しました</string>
-  <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g>拒否しました</string>
+  <string name="app_ops_ignored_count"><xliff:g id="count" example="2 times">%s</xliff:g>回拒否しました</string>
   <string name="app_ops_both_count"><xliff:g id="count">%1$s</xliff:g>許可、<xliff:g id="count">%2$s</xliff:g>拒否しました</string>
   <string name="app_ops_show_user_apps">ユーザーアプリを表示</string>
   <string name="app_ops_show_system_apps">内蔵アプリを表示</string>
@@ -651,7 +651,7 @@
   <string name="usb_charging_summary">パソコンとのすべてのデータの転送を無効にしてUSBポート経由で端末を充電します</string>
   <string name="usb_sdcard_title">マスストレージ（UMS）</string>
   <string name="usb_sdcard_summary">フラッシュデバイスとしてマウントすることでパソコンとSDカードの間で任意のファイルを転送できます</string>
-  <string name="usb_not_connected">USBは現在切断されています</string>
+  <string name="usb_not_connected">現在USBは切断されています</string>
   <string name="external_storage_turn_on">外部ストレージがONになりました</string>
   <string name="external_storage_turn_off">外部ストレージがOFFになりました</string>
   <string name="stats_collection_title">統計の収集</string>
@@ -699,7 +699,7 @@
   <string name="status_bar_show_weather_summary">クイック設定パネルの上に天気を表示する</string>
   <string name="qs_category_title">クイック設定パネル</string>
   <string name="qs_brightness_slider_title">明るさスライダーを表示</string>
-  <string name="qs_hide_tiles_with_sensitive_data">ロック時に機密性の高いタイルを非表示</string>
+  <string name="qs_hide_tiles_with_sensitive_data">ロック時にプライベートなタイルを非表示</string>
   <string name="qs_order_title">タイルの選択と並べ替え</string>
   <string name="add_qs">新しいタイルを追加</string>
   <string name="qs_action_delete">削除</string>
@@ -737,7 +737,7 @@
   <string name="qs_main_tiles_summary_off">行ごとに3個のタイル</string>
   <string name="qs_advanced_location_title">詳細な位置情報の設定</string>
   <string name="qs_advanced_location_summary">クイック設定で詳細な位置情報の設定を有効にする</string>
-  <string name="sim_no_number_set">番号が割り当てられていません</string>
+  <string name="sim_no_number_set">番号が設定されていません</string>
   <string name="gesture_settings_title">ジェスチャー</string>
   <string name="themes_settings_title">テーマ</string>
   <string name="wifi_mode">モード</string>
@@ -765,7 +765,7 @@
   <string name="lockscreen_targets_message">ロック画面のショートカット</string>
   <string name="lockscreen_default_target">デフォルト</string>
   <string name="lockscreen_none_target">なし</string>
-  <string name="lockscreen_message">左右のアイコンをタップしてロック画面のショートカットを再割り当てします。</string>
+  <string name="lockscreen_message">左右のアイコンをタップしてロック画面のショートカットを設定します。</string>
   <string name="lockscreen_choose_action_title">動作を選択</string>
   <string name="lockscreen_visualizer_title">音楽ビジュアライザを表示</string>
   <string name="nfc_title_category">NFC</string>
@@ -846,6 +846,8 @@
   <string name="live_display_color_profile_cinema_summary">メディアの完全な色再現</string>
   <string name="live_display_color_profile_astronomy_title">天文学</string>
   <string name="live_display_color_profile_astronomy_summary">夜間視力に優しい深い赤</string>
+  <string name="live_display_color_profile_basic_title">基本</string>
+  <string name="live_display_color_profile_basic_summary">無調整のディスプレイを使用する</string>
   <string name="battery_saver_threshold">バッテリーセーバーの開始値</string>
   <string name="battery_saver_summary">パフォーマンスとバックグランドデータを制限する</string>
   <string name="battery_saver_summary_unavailable">充電中は利用できません</string>
@@ -875,6 +877,11 @@
   <string name="factory_reset_erase_sd_card_summary">音楽や写真を含むSDカードのすべてのデータを消去する</string>
   <string name="factory_reset_warning_text_reset_now">今すぐリセット</string>
   <string name="factory_reset_warning_text_message">この端末からすべてのアカウント、アプリ、アプリのデータ、システム設定が消去されます。この操作は元に戻せません。</string>
+  <string name="wifi_show_all">すべて表示</string>
+  <string name="wifi_show_protected">保護されたネットワークを表示</string>
+  <string name="wifi_show_open">オープンネットワークを表示</string>
+  <string name="wifi_empty_list_protected">保護されたWi\u2011Fiネットワークがありません</string>
+  <string name="wifi_empty_list_open">オープンWi\u2011Fiネットワークがありません</string>
   <string name="wifi_setting_countrycode_title">Wi\u2011Fi地域コード</string>
   <string name="wifi_setting_countrycode_summary">Wi\u2011Fiの地域コードを指定する</string>
   <string name="wifi_setting_countrycode_error">地域コードの設定中に問題が発生しました。</string>

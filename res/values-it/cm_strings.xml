@@ -847,6 +847,8 @@
   <string name="live_display_color_profile_cinema_summary">Riproduzione del colore perfetto per contenuti multimediali</string>
   <string name="live_display_color_profile_astronomy_title">Astronomia</string>
   <string name="live_display_color_profile_astronomy_summary">Rosso profondo per la visione notturna</string>
+  <string name="live_display_color_profile_basic_title">Base</string>
+  <string name="live_display_color_profile_basic_summary">Usa il display non calibrato</string>
   <string name="battery_saver_threshold">Soglia risparmio energetico</string>
   <string name="battery_saver_summary">Riduce le prestazioni e limita i dati in background</string>
   <string name="battery_saver_summary_unavailable">Non disponibile durante la ricarica</string>
@@ -876,6 +878,11 @@
   <string name="factory_reset_erase_sd_card_summary">Cancellare tutti i dati sulla scheda SD, incluso musica e foto</string>
   <string name="factory_reset_warning_text_reset_now">RIPRISTINA ORA</string>
   <string name="factory_reset_warning_text_message">Tutti gli account, applicazioni, dati delle app e impostazioni di sistema verranno rimossi da questo dispositivo. Questo non può essere invertito.</string>
+  <string name="wifi_show_all">Mostra tutte</string>
+  <string name="wifi_show_protected">Solo reti protette</string>
+  <string name="wifi_show_open">Solo reti libere</string>
+  <string name="wifi_empty_list_protected">Nessuna rete Wi\u2011Fi protetta</string>
+  <string name="wifi_empty_list_open">Nessuna rete Wi\u2011Fi libera</string>
   <string name="wifi_setting_countrycode_title">Codice regione Wi\u2011Fi</string>
   <string name="wifi_setting_countrycode_summary">Specifica il codice regione per il Wi\u2011Fi</string>
   <string name="wifi_setting_countrycode_error">Problema nell\'impostazione del codice regione.</string>

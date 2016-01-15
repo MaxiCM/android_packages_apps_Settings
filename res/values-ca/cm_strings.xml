@@ -847,6 +847,8 @@
   <string name="live_display_color_profile_cinema_summary">Reproducció del color perfecte per a multimèdia</string>
   <string name="live_display_color_profile_astronomy_title">Astronomia</string>
   <string name="live_display_color_profile_astronomy_summary">Vermells profunds per preservar la visió nocturna</string>
+  <string name="live_display_color_profile_basic_title">Bàsic</string>
+  <string name="live_display_color_profile_basic_summary">Utilitza la pantalla sense calibrar</string>
   <string name="battery_saver_threshold">Llindar d\'estalvi de bateria</string>
   <string name="battery_saver_summary">Redueix el rendiment i limita les dades en segon pla</string>
   <string name="battery_saver_summary_unavailable">No disponible durant la càrrega</string>
@@ -876,6 +878,11 @@
   <string name="factory_reset_erase_sd_card_summary">Esborra totes les dades a la targeta SD, incloent-hi la música i les fotos</string>
   <string name="factory_reset_warning_text_reset_now">RESTAURA ARA</string>
   <string name="factory_reset_warning_text_message">S\'eliminaran tots els teus comptes, aplicacions, dades d\'aplicacions i ajustaments del sistema d\'aquest dispositiu. Això no es pot revertir.</string>
+  <string name="wifi_show_all">Mostra-ho tot</string>
+  <string name="wifi_show_protected">Mostra les xarxes protegides</string>
+  <string name="wifi_show_open">Mostra les xarxes obertes</string>
+  <string name="wifi_empty_list_protected">No hi ha xarxes Wi\u2011Fi protegides</string>
+  <string name="wifi_empty_list_open">No hi ha xarxes Wi\u2011Fi obertes</string>
   <string name="wifi_setting_countrycode_title">Codi de regió de Wi\u2011Fi</string>
   <string name="wifi_setting_countrycode_summary">Especifica el codi de regió per al Wi\u2011Fi</string>
   <string name="wifi_setting_countrycode_error">Hi ha un problema al establir el codi de regió.</string>

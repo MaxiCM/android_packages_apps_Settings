@@ -846,6 +846,8 @@
   <string name="live_display_color_profile_cinema_summary">印刷质量的完美颜色</string>
   <string name="live_display_color_profile_astronomy_title">天文</string>
   <string name="live_display_color_profile_astronomy_summary">夜视的深红色</string>
+  <string name="live_display_color_profile_basic_title">基本</string>
+  <string name="live_display_color_profile_basic_summary">使用未校准的屏幕</string>
   <string name="battery_saver_threshold">节电助手阈值</string>
   <string name="battery_saver_summary">降低性能并限制后台流量</string>
   <string name="battery_saver_summary_unavailable">在充电时不可用</string>
@@ -876,6 +878,11 @@
   <string name="factory_reset_erase_sd_card_summary">擦除 SD 卡上的所有数据，包括音乐和照片</string>
   <string name="factory_reset_warning_text_reset_now">立即重置</string>
   <string name="factory_reset_warning_text_message">您的所有帐户、应用、应用数据和系统设置将会从该设备上删除。此操作不可撤销。</string>
+  <string name="wifi_show_all">全部显示</string>
+  <string name="wifi_show_protected">显示受保护的网络</string>
+  <string name="wifi_show_open">显示开放网络</string>
+  <string name="wifi_empty_list_protected">没有受保护的 Wi\u2011Fi 网络</string>
+  <string name="wifi_empty_list_open">没有开放的 Wi\u2011Fi 网络</string>
   <string name="wifi_setting_countrycode_title">Wi\u2011Fi 区域码</string>
   <string name="wifi_setting_countrycode_summary">为 Wi\u2011Fi 指定区域码</string>
   <string name="wifi_setting_countrycode_error">设置区域码时遇到了问题。</string>
