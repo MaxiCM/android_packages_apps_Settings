@@ -35,6 +35,7 @@
  
     <!-- Fast charge -->
     <string name="pref_force_fast_charge_title">Carga rápida</string>
+    <string name="pref_force_fast_charge_summary_head">Incrementa la velocidad de carga hasta un 20% mas rapido. Si usted tiene problemas con la carga por favor desactive esto.</string>
  
     <!-- Pie control -->
     <string name="pie_control_title">Controles PIE</string>
