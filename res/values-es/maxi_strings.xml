@@ -33,47 +33,6 @@
     <!-- Device mem info -->
     <string name="mem_info">RAM</string>
  
-    <!--MaxiCM Performance Settings-->  
-    <string name="maxi_performance_settings">Ajustes de rendimiento de MaxiCM</string>
-    <string name="performance_settings_warning">No se encontraron perfiles</string>
-    <string name="performance_settings_warning_title">Proceder con precaución</string>
- 
-    <!-- Performance Settings : I/O scheduler settings title -->
-    <string name="io_scheds_title">Planificador I/O</string>
- 
-    <!-- Performance Settings : I/O scheduler settings sub items -->
-    <string name="io_sched_title">Planificador I/O</string>
-    <string name="io_sched_summary" translatable="false">%S</string>
-    <!-- Performance Settings : Set on boot option -->
-    <string name="performance_set_on_boot">Aplicar en el inicio</string>
-    <string name="performance_set_on_boot_summary">Restaurar ajustes en el inicio</string>
- 
-    <!-- Performance Settings : Processor Settings -->
-    <!-- Performance Settings : Processor settings title -->
-    <string name="processor_title">Procesador</string>
- 
-    <!-- Performance Settings-->
-    <string name="background_apps">Aplicaciones</string>
-    <string name="maxi_boot">Ajustes de inicio</string>
- 
-    <!--Graphics-->
-    <string name="graphics_title">Optimizaciones gráficas</string>
-    <string name="maxi_force_graphics_ui">Forzar GPU</string>
-    <string name="maxi_disable_hw">Optimizaciones de la GPU</string>
-    <string name="maxi_disable_hw_summary">Utilizar GPU para componer la pantalla.</string>
-    <string name="maxi_force_graphics_ui_summary">Forzar la GPU para utilizarse en lugar de la CPU para dibujos 2D</string>
-    <string name="warning_gpu">¡Precaución!</string>  
-    <string name="message_gpu">Si utiliza opciones de desarrollador, esta opción se restablecerá</string>
- 
-    <!-- Performance Settings : Processor settings sub items -->
-    <string name="cpu_cur_freq_title">Frecuencia actual de la CPU</string>
-    <string name="cpu_governors_title">Gobernador de CPU</string>
-    <string name="cpu_governors_summary" translatable="false">%S</string>
-    <string name="cpu_min_freq_title">Frecuencia mínima de la CPU</string>
-    <string name="cpu_min_freq_summary" translatable="false">%s</string>
-    <string name="cpu_max_freq_title">Frecuencia máxima de la CPU</string>
-    <string name="cpu_max_freq_summary" translatable="false">%s</string>
- 
     <!-- Fast charge -->
     <string name="pref_force_fast_charge_title">Carga rápida</string>
  
