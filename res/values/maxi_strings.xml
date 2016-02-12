@@ -63,5 +63,9 @@
     <string name="toast_Translucent_animation">Translucent</string>
     <string name="toast_SlideLeftRight_animation">Slide left to right</string>
     <string name="toast_SlideRightLeft_animation">Slide right to left</string>
+
+    <!-- Show/hide headset icon -->
+    <string name="show_headset_icon_title">Show headset icon</string>
+    <string name="show_headset_icon_summary">Display an icon in status bar when headset is plugged in</string>
  
 </resources>
