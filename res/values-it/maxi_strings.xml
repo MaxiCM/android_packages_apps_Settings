@@ -17,4 +17,48 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="maxi_version">Versione MaxiCM</string>
   <string name="maxi_version_default">Sconosciuto</string>
+  <!-- MaxiCM UI Settings -->
+   <string name="maxi_ui_settings_title">Impostazioni MaxiCM UI</string>
+
+  <!-- MaxiCM Settings -->
+  <string name="maxi_settings_title">Impostazioni MaxiCM</string>
+
+<!-- ChangeLog -->
+    <string name="changelog_title">Changelog</string>
+    <string name="changelog_title_summary">Mostra i recenti cambiamenti della MaxiCM</string>
+    <string name="changelog_error">Impossibile caricare changelog</string>
+<!-- Device mem info -->
+    <string name="mem_info">RAM</string>
+
+
+    <!-- Fast charge -->
+    <string name="pref_force_fast_charge_title">Carica rapida</string>
+    <string name="pref_force_fast_charge_summary_head">Aumenta la velocità della fino al 20%. In caso di problemi con la carica disattivarlo.</string>
+<!-- Pie control -->
+    <string name="pie_control_title">Pie control</string>
+    <string name="pie_control_summary">Disabilita la barra di navigazione</string>
+
+    <!-- Animations -->
+    <string name="custom_animations">Animazione</string>
+<!-- Toast Animation -->
+    <string name="toast_animation_title">Toast animazione</string>
+    <string name="toast_none_animation">Nessuna</string>
+    <string name="toast_default_animation">Default</string>
+    <string name="toast_fade_animation">Dissolvenza</string>
+    <string name="toast_SlideRight_animation">Scorrere a destra</string>
+    <string name="toast_SlideLeft_animation">Scorrere a sinistra</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Dissolvenza veloce</string>
+    <string name="toast_GrowFade_animation">Dissolvenza in crescita</string>
+    <string name="toast_GrowFadeCenter_animation">Dissolvenza in crescita centrale</string>
+    <string name="toast_GrowFadeBottom_animation">Dissolvenza in crescita inferiore</string>
+    <string name="toast_Translucent_animation">Traslucido</string>
+    <string name="toast_SlideLeftRight_animation">Scorrere da sinistra a destra</string>
+    <string name="toast_SlideRightLeft_animation">Scorrere da destra a sinistra</string>
+<!-- Show/hide headset icon -->
+    <string name="show_headset_icon_title">Mostra icona auricolare</string>
+    <string name="show_headset_icon_summary">Mostra un'icona nella barra di stato quando l'auricolare è collegato</string>
 </resources>
