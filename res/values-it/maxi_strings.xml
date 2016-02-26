@@ -60,5 +60,5 @@
     <string name="toast_SlideRightLeft_animation">Scorrere da destra a sinistra</string>
 <!-- Show/hide headset icon -->
     <string name="show_headset_icon_title">Mostra icona auricolare</string>
-    <string name="show_headset_icon_summary">Mostra un'icona nella barra di stato quando l'auricolare è collegato</string>
+    <string name="show_headset_icon_summary">Mostrare un incona nella barra di stato quando l\'auricolare è collegato</string>
 </resources>
