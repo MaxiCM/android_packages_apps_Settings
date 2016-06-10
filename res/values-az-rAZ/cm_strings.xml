@@ -38,24 +38,12 @@
   <string name="root_access_adb">Yalnız ADB</string>
   <string name="root_access_all">Tətbiqetmələr və ADB</string>
   <!-- NFC PreferenceCategory title -->
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod versiyası</string>
-  <string name="mod_version_default">Bilinməyən</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Cihaz modeli</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Cihaz adı</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level_default">Bilinməyən</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Quruluş tarixi</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">CyanogenMod yeniləmələri</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Cyanogen bərpa rejimini yenilə</string>
-  <string name="update_recovery_summary">Sistem yeniləməsi ilə bərpa rejimini yenilə</string>
-  <string name="update_recovery_on_warning">DİQQƏT: Bu özəllik fəal olduğu halda, quraşdırılmış bərpa rejiminiz hazırki ƏS versiyasındakı rejim ilə əvəz olunacaq.\n\nBərpa rejiminiz sistem yeniləmələri ilə birgə yeniləcək, beləliklə gələcək versiyalar ilə uyğunluq təmin ediləcək.\n\nBu özəlliyi fəallaşdırmaq istəyirsiniz?</string>
-  <string name="update_recovery_off_warning">XƏBƏRDARLIQ: Bu özəllik ləğv edilərsə, quraşdırılmış bərpa rejiminiz ƏS yeniləmələri ilə yenilənməyəcək.\n\nGələcək ƏS yeniləmələri köhnəlmiş və ya xüsusi bərpa versiyaları ilə yüklənməyə bilər.\n\nBu özəlliyi həqiqətən də ləğv etmək istəyirsiniz?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Temalar</string>
@@ -646,9 +634,6 @@
   <string name="block_notifications_title">Bildirişləri filtrlə</string>
   <string name="block_notifications_summary">Rədd edilmiş bildirişləri və filtrləri idarə et</string>
   <string name="no_filters_title">Heç bir filtr tənzimlənməyib</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <!-- Anonymous Statistics - Preview -->
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Formanı sıfırla</string>
   <string name="lockpattern_settings_reset_summary">Forma kilidini sıfırlamaq üçün əsas e-poçt hesabınızı və əlaqəli şifrəni daxil edin</string>
@@ -662,7 +647,6 @@
   <string name="pa_login_submit_button">Giriş et</string>
   <string name="pa_login_checking_password">Hesab yoxlanılır\u2026</string>
   <string name="pa_login_incorrect_login">Xətalı giriş</string>
-  <!-- Contributors cloud activity -->
   <string name="category_sounds">Səslər</string>
   <string name="notification_manager">Bildirişlər</string>
   <string name="lockscreen_settings">Kilit ekranı</string>
@@ -699,7 +683,6 @@
   <!-- Live lock screen settings content description -->
   <string name="live_lock_screen_settings_button">Tənzimləmələr</string>
   <!-- Live lock screen settings screen, caption for when live lock screens are disabled -->
-  <!-- CM Legal -->
   <!-- Menu label for reset the battery stats -->
   <!-- Reset stats confirmation dialog's message -->
   <!-- Dock battery not present message -->

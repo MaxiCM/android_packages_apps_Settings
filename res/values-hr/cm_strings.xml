@@ -41,25 +41,12 @@
   <string name="root_access_all">Aplikacije i ADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod verzija</string>
-  <string name="mod_version_default">Nepoznato</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model uređaja</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Naziv uređaja</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">CyanogenMod API razina</string>
-  <string name="mod_api_level_default">Nepoznato</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Datum izdavanja</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">CyanogenMod ažuriranja</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Ažuriraj Cyanogen recovery</string>
-  <string name="update_recovery_summary">Ažuriraj recovery sa sistemom</string>
-  <string name="update_recovery_on_warning">Napomena: Kada je ova značajka omogućena, instalirani oporavak će biti zamijenjen onim koji se nalazi u trenutnoj verziji OS-a.\n\nVaš oporavak će se obnoviti uz nadogradnju sustava, čime se osigurava kompatibilnost s budućim verzijama.\n\nŽelite li omogućiti ovu značajku?</string>
-  <string name="update_recovery_off_warning">Upozorenje: Kada je ova mogućnost onemogućena, instalirani se oporavak neće ažurirati sa OS nadogradnjama.\n\nBuduća OS ažuriranja možda se neće instalirati s zastarjelim ili prilagođenim verzijama oporavka.\n\nŽelite li isključiti ovu mogućnost?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Teme</string>
@@ -850,24 +837,6 @@
   <string name="block_notifications_title">Filtriraj obavijesti</string>
   <string name="block_notifications_summary">Upravljaj zanemarenim obavijestima i filterima</string>
   <string name="no_filters_title">Nema postavljenih filtera</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">CyanogenMod statistika</string>
-  <string name="anonymous_statistics_summary">Pomozite nam poboljšati CyanogenMod slanjem anonimnih statističkih izvješća</string>
-  <string name="anonymous_statistics_warning_title">O</string>
-  <string name="anonymous_statistics_warning">Omogućavanjem slanja CyanogenMod statistike dozvolit će se da se neosobni podaci dostave razvojnom timu CyanogenMod-a kako bi se pratio broj pojedinačnih instalacija na različite uređaje. Informacije koje se šalju sadrže jedinstvenu identifikaciju koja ne kompromitira privatnost ili osobne podatke. Podaci se šalju pri svakom pokretanju uređaja.\n\nZa primjer podataka koji se šalju, dodirnite pregled podataka.</string>
-  <string name="enable_reporting_title">Omogući izvješća</string>
-  <string name="preview_data_title">Pretpregled podataka</string>
-  <string name="view_stats_title">Prikaz statistika</string>
-  <string name="anonymous_learn_more">Saznajte više</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Jedinstveni ID</string>
-  <string name="preview_device_title">Uređaj</string>
-  <string name="preview_version_title">Verzija</string>
-  <string name="preview_country_title">Zemlja</string>
-  <string name="preview_carrier_title">Operater</string>
-  <string name="stats_collection_title">Prikupljene statistike</string>
-  <string name="stats_collection_summary">Kada je omogućeno dozvoljava metričku kolekciju</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Ponovno postavi uzorak</string>
   <string name="lockpattern_settings_reset_summary">Unesite primarni e-mail račun i pridruženu lozinku da biste vratili uzorak</string>
@@ -883,20 +852,6 @@
   <string name="pa_login_checking_password">Provjera računa\u2026</string>
   <string name="pa_login_incorrect_login">Prijava je netočna</string>
   <string name="pa_pattern_or_fingerprint_header">Morate nacrtati uzorak ili koristiti otisak prsta za otključavanje</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Suradnici</string>
-  <string name="contributors_cloud_loading_message">Učitavanje podataka suradnika\u2026</string>
-  <string name="contributors_cloud_failed_message">Nije moguće učitati podatke suradnika</string>
-  <string name="contributor_info_menu">Informacije suradnika</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Ime:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Nadimak:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Informacije suradnika</string>
-  <string name="contributions_info_msg">
-<![CDATA[<b>Svi suradnici:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-<b>Svi commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>Zadnje ažuriranje:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">Zvukovi</string>
   <string name="notification_manager">Obavijesti</string>
   <string name="lockscreen_settings">Zaključani zaslon</string>
@@ -995,8 +950,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">Da bi vidjeli dostupne Aktivne zaključane zaslone, uključite ih.</string>
   <string name="interruptions_ignore_while_media_title">Onemogući stišavanje audia</string>
   <string name="interruptions_ignore_while_media_summary">Nemoj utišati glasnoću reprodukcije medija kada pristigne obavijest</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">CyanogenMod licenca</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Resetiraj statistiku</string>
   <!-- Reset stats confirmation dialog's message -->

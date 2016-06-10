@@ -31,18 +31,10 @@
   <string name="root_access_adb">Tikai ADB</string>
   <string name="root_access_all">Lietotnēm un ADB</string>
   <!-- NFC PreferenceCategory title -->
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod versija</string>
-  <string name="mod_version_default">Nezināms</string>
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level_default">Nezināms</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Būvējuma datums</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">CyanogenMod atjaunojumi</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Tēmas</string>
@@ -497,9 +489,6 @@
   <!-- Notification spamfilter -->
   <string name="block_notifications_title">Filtra paziņojumi</string>
   <string name="block_notifications_summary">Pārvaldīt ignorētos ziņojumus un filtrus</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <!-- Anonymous Statistics - Preview -->
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Atstatīt paraugu</string>
   <string name="lockpattern_settings_reset_summary">Lai atstatītu atslēgšanas paraugu, ievadiet primāro e-pasta kontu un tā paroli</string>
@@ -513,7 +502,6 @@
   <string name="pa_login_submit_button">Pieteikties</string>
   <string name="pa_login_checking_password">Pārbauda kontu\u2026</string>
   <string name="pa_login_incorrect_login">Pieteikšanās bija nepareiza</string>
-  <!-- Contributors cloud activity -->
   <!-- Edit access point labels: PPP number -->
   <!-- APNs screen message indicating new APN user is adding is a duplicate -->
   <!-- MSIM SIM status -->
@@ -541,8 +529,6 @@
   <!-- Live lock screen settings content description -->
   <string name="live_lock_screen_settings_button">Iestatījumi</string>
   <!-- Live lock screen settings screen, caption for when live lock screens are disabled -->
-  <!-- CM Legal -->
-  <string name="cmlicense_title">CyanogenMod atbildība</string>
   <!-- Menu label for reset the battery stats -->
   <!-- Reset stats confirmation dialog's message -->
   <!-- Dock battery not present message -->

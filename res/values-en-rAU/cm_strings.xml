@@ -39,22 +39,10 @@
   <string name="root_access_adb">ADB only</string>
   <string name="root_access_all">Apps and ADB</string>
   <!-- NFC PreferenceCategory title -->
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod version</string>
-  <string name="mod_version_default">Unknown</string>
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level_default">Unknown</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build date</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">CyanogenMod updates</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Update Cyanogen recovery</string>
-  <string name="update_recovery_summary">Update recovery with system updates</string>
-  <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
-  <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Themes</string>
@@ -691,11 +679,6 @@
   <string name="block_notifications_title">Filter notifications</string>
   <string name="block_notifications_summary">Manage ignored notifications and filters</string>
   <string name="no_filters_title">No filters set</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <!-- Anonymous Statistics - Preview -->
-  <string name="stats_collection_title">Stats collection</string>
-  <string name="stats_collection_summary">When enabled, allows metrics collection</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Reset pattern</string>
   <string name="lockpattern_settings_reset_summary">Enter primary email account and associated password to reset pattern lock</string>
@@ -709,7 +692,6 @@
   <string name="pa_login_submit_button">Sign in</string>
   <string name="pa_login_checking_password">Checking account\u2026</string>
   <string name="pa_login_incorrect_login">Login was incorrect</string>
-  <!-- Contributors cloud activity -->
   <string name="category_sounds">Sounds</string>
   <string name="lockscreen_settings">Lock screen</string>
   <string name="category_lights">Lights</string>
@@ -756,8 +738,6 @@
   <!-- Live lock screen settings screen, caption for when live lock screens are disabled -->
   <string name="interruptions_ignore_while_media_title">Prevent audio ducking</string>
   <string name="interruptions_ignore_while_media_summary">Do not reduce media playback volume when a notification arrives</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">CyanogenMod legal</string>
   <!-- Menu label for reset the battery stats -->
   <!-- Reset stats confirmation dialog's message -->
   <!-- Dock battery not present message -->

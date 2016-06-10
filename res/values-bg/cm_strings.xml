@@ -40,25 +40,12 @@
   <string name="root_access_all">За приложения и ADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod версия</string>
-  <string name="mod_version_default">Неизвестна</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Модел на устройството</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Име на устройството</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">CyanogenMod приложно-програмен интерфейс ниво</string>
-  <string name="mod_api_level_default">Неизвестна</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Дата на изграждане</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Системни актуализации</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Актуализирай режима за възстановяване</string>
-  <string name="update_recovery_summary">Актуализирай режима за възстановяване със системните актуализации</string>
-  <string name="update_recovery_on_warning">Забележка: Когато тази функция е активна, вашият режим за възстановяване ще бъде заменен с включения в текущата версия на операционната система.\n\nВашия режима за възстановяване ще се актуализира заедно с ъпгрейдите на вашата система, за да се гарантира съвместимост с бъдещите версии.\n\nИскате ли да активирате тази функция?</string>
-  <string name="update_recovery_off_warning">Предупреждение: Когато тази функция е забранена, вашия режима за възстановяване няма да бъде актуализиран с актуализациите на операционната система.\n\nБъдещи актуализации на операционната система не могат да се инсталират с остарели или потребителски режими за възстановяване.\n\nНаистина ли искате да забраните тази функция?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Теми</string>
@@ -849,24 +836,6 @@
   <string name="block_notifications_title">Филтриране на известия</string>
   <string name="block_notifications_summary">Управление на филтри и игнорирани известия</string>
   <string name="no_filters_title">Няма зададени филтри</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Статистики</string>
-  <string name="anonymous_statistics_summary">Помогнете да направим CyanogenMod по-добър, като разрешите да събира анонимни статистически данни</string>
-  <string name="anonymous_statistics_warning_title">Информация</string>
-  <string name="anonymous_statistics_warning">Ще позволи на CyanogenMod Statistics да изпраща не лична информация  на разработчиците от CyanogenMod, за проследяване на инсталациите в устройството. Предоставената информация включва уникален идентификатор, който не застрашава вашата поверителност или лични данни. Данните се подават по време на всяко зареждане.\n\nПример за данните, които са подадени.</string>
-  <string name="enable_reporting_title">Разреши отчитане</string>
-  <string name="preview_data_title">Визуализиране на данните</string>
-  <string name="view_stats_title">Преглед на статистиките</string>
-  <string name="anonymous_learn_more">Научете повече</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Уникален ID</string>
-  <string name="preview_device_title">Устройство</string>
-  <string name="preview_version_title">Версия</string>
-  <string name="preview_country_title">Държава</string>
-  <string name="preview_carrier_title">Оператор</string>
-  <string name="stats_collection_title">Събиране на статистики</string>
-  <string name="stats_collection_summary">Когато е активирана, позволява събиране на показатели</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Възстановяване на шаблона</string>
   <string name="lockpattern_settings_reset_summary">Въведете основния имейл акаунт и свързаната с него парола за нулиране заключването на шаблона</string>
@@ -882,20 +851,6 @@
   <string name="pa_login_checking_password">Проверка на акаунт\u2026</string>
   <string name="pa_login_incorrect_login">Влизането е неуспешно</string>
   <string name="pa_pattern_or_fingerprint_header">Начертай фигура или използвай пръстов отпечатък за да отключиш</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Сътрудници</string>
-  <string name="contributors_cloud_loading_message">Зареждане на данните за сътрудници\u2026</string>
-  <string name="contributors_cloud_failed_message">Данните за сътрудници не могат да бъдат заредени</string>
-  <string name="contributor_info_menu">Потребителска информация</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Име:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Ник:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Ангажира:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Информация за потребители</string>
-  <string name="contributions_info_msg">
-        <![CDATA[<b>Общо сътрудници:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Общо ангажира:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Последна актуализация:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">Звуци</string>
   <string name="notification_manager">Известия</string>
   <string name="lockscreen_settings">Заключен екран</string>
@@ -994,8 +949,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">Активирай за да прегледаш наличните анимирани екрани.</string>
   <string name="interruptions_ignore_while_media_title">Не намалявай силата на звука</string>
   <string name="interruptions_ignore_while_media_summary">Не намалявай силата на звука, когато пристига известие</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">CyanogenMod правна информация</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Нулиране на статистиката</string>
   <!-- Reset stats confirmation dialog's message -->

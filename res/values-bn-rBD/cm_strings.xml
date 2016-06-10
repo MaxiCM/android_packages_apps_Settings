@@ -31,17 +31,10 @@
   <string name="root_access_adb">শুধু মাত্র এডিবি</string>
   <string name="root_access_all">অ্যাপস এবং এডিবি</string>
   <!-- NFC PreferenceCategory title -->
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">সায়ানোজেনমড সংস্করণ</string>
-  <string name="mod_version_default">অজানা</string>
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level_default">অজানা</string>
   <!-- About phone screen, build date -->
   <string name="build_date">তৈরী তারিখ</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">সায়ানোজেনমড আধুনিকীকরণ</string>
   <!-- Settings switch for updating Cyanogen recovery -->
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
@@ -505,9 +498,6 @@
   <!-- Notification spamfilter -->
   <string name="block_notifications_title">ফিল্টার নোটিফিকেশনস</string>
   <string name="block_notifications_summary">উপেক্ষিত নোটিফিকেশনস এবং ফিল্টার নিয়ন্ত্রণ করুন</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <!-- Anonymous Statistics - Preview -->
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">নকসা পুনঃবিন্যাস</string>
   <string name="lockpattern_settings_reset_summary">প্রাথমিক ই-মেইল একাউন্ট ও সংশ্লিষ্ট পাসওয়ার্ড লিখুন প্যাটার্ন পুনঃবিন্যাস করতে</string>
@@ -521,7 +511,6 @@
   <string name="pa_login_submit_button">সাইন-ইন</string>
   <string name="pa_login_checking_password">একাউন্ট পরীক্ষা করা হচ্ছে\u2026</string>
   <string name="pa_login_incorrect_login">লগইন ভুল ছিল</string>
-  <!-- Contributors cloud activity -->
   <!-- Edit access point labels: PPP number -->
   <!-- APNs screen message indicating new APN user is adding is a duplicate -->
   <!-- MSIM SIM status -->
@@ -549,8 +538,6 @@
   <!-- Live lock screen settings content description -->
   <string name="live_lock_screen_settings_button">রুপান্তর নির্ধারণ</string>
   <!-- Live lock screen settings screen, caption for when live lock screens are disabled -->
-  <!-- CM Legal -->
-  <string name="cmlicense_title">সায়ানোজেনমড বৈধতা</string>
   <!-- Menu label for reset the battery stats -->
   <!-- Reset stats confirmation dialog's message -->
   <!-- Dock battery not present message -->

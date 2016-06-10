@@ -37,19 +37,9 @@
   <string name="root_access_adb">Só ADB</string>
   <string name="root_access_all">Aplicacións e ADB</string>
   <!-- NFC PreferenceCategory title -->
-  <!-- About phone screen, CyanogenMod version -->
   <!-- About phone screen, Device model -->
   <!-- About phone screen, Device name -->
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">Nivel API CyanogenMod</string>
   <!-- About phone screen, build date -->
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Actualizacións de CyanogenMod</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Recuperación da actualización de Cyanogen</string>
-  <string name="update_recovery_summary">Actualizar a recuperación coas actualizacións do sistema</string>
-  <string name="update_recovery_on_warning">AVISO: Se ten esta funcionalidade activada, a recuperación instalada substituirase por unha incluída na versión actual que se está a utilizar no sistema.\n\nA recuperación actualizarase xunta as actualizacións do sistema, para asegurar a compatibilidade coas versións futuras.\n\nQuere activar esta funcionalidade?</string>
-  <string name="update_recovery_off_warning">AVISO: Con esta funcionalidade desactivada, a recuperación instalada non se actualizará coas actualizacións do sistema.\n\nAs futuras actualizacións do sistema poderían non instalarse con versións de recuperación non actualizadas ou personalizadas.\n\nConfirma a desactivación desta funcionalidade?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <!-- Sound settings screen -->
@@ -373,20 +363,12 @@
   <string name="block_notifications_title">Filtrar notificacións</string>
   <string name="block_notifications_summary">Xestionar filtros e notificacións ignoradas</string>
   <string name="no_filters_title">Non se estabeleceron filtros</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <!-- Anonymous Statistics - Preview -->
   <!-- Protected apps lockpattern reset button -->
   <!-- Protected Apps -->
   <string name="pa_login_password_hint">Contrasinal</string>
   <string name="pa_login_submit_button">Acceder</string>
   <string name="pa_login_checking_password">Comprobando a conta\u2026</string>
   <string name="pa_login_incorrect_login">O inicio de sesión era incorrecto</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Alcume:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Remisións:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
   <string name="lcd_density_prompt_message">Algunhas aplicacións poden non funcionar cunha DPI non estándar.\n\nIsto vai reiniciar o seu dispositivo.</string>
   <!-- Edit access point labels: PPP number -->
   <string name="apn_ppp_number">Número telefónico APN PPP</string>
@@ -427,7 +409,6 @@
   <!-- Live lock screen summary -->
   <!-- Live lock screen settings content description -->
   <!-- Live lock screen settings screen, caption for when live lock screens are disabled -->
-  <!-- CM Legal -->
   <!-- Menu label for reset the battery stats -->
   <!-- Reset stats confirmation dialog's message -->
   <!-- Dock battery not present message -->

@@ -40,25 +40,12 @@
   <string name="root_access_all">Apps en ADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">CyanogenMod-versie</string>
-  <string name="mod_version_default">Onbekend</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Model</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Apparaatnaam</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">Niveau van CyanogenMod-API</string>
-  <string name="mod_api_level_default">Onbekend</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Build-datum</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">CyanogenMod-updates</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Cyanogen-recovery bijwerken</string>
-  <string name="update_recovery_summary">Recovery bijwerken met systeemupdates</string>
-  <string name="update_recovery_on_warning">Let op: als deze functie ingeschakeld is, wordt uw recovery vervangen door de recovery die met uw huidige besturingssysteem geleverd wordt.\n\nUw recovery wordt met systeemupdates ook bijgewerkt om compatibiliteit met toekomstige versies te garanderen.\n\nWilt u deze functie inschakelen?</string>
-  <string name="update_recovery_off_warning">Let op: als deze functie is uitgeschakeld, wordt uw recovery niet bijgewerkt bij systeemupdates.\n\nToekomstige systeemupdates kunnen wellicht niet geïnstalleerd worden op oude recovery-versies.\n\nWeet u zeker dat u deze functie wilt uitschakelen?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Thema\'s</string>
@@ -847,24 +834,6 @@
   <string name="block_notifications_title">Meldingen filteren</string>
   <string name="block_notifications_summary">Genegeerde meldingen en filters beheren</string>
   <string name="no_filters_title">Geen filters ingesteld</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Statistieken</string>
-  <string name="anonymous_statistics_summary">Help CyanogenMod te verbeteren door anonieme statistieken te verzenden</string>
-  <string name="anonymous_statistics_warning_title">Over</string>
-  <string name="anonymous_statistics_warning">Door statistieken verzenden toe te staan worden tijdens het opstarten anonieme gegevens naar de ontwikkelaars van CyanogenMod verzonden om unieke installaties te kunnen volgen. In de gegevens zit een uniek id-nummer verwerkt, dat uw privacy niet schendt.\n\nOm een voorbeeld te zien, tikt u op \'Voorbeeld van gegevens\'.</string>
-  <string name="enable_reporting_title">Statistieken verzenden</string>
-  <string name="preview_data_title">Voorbeeld van gegevens</string>
-  <string name="view_stats_title">Statistieken tonen</string>
-  <string name="anonymous_learn_more">Lees meer</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Uniek id</string>
-  <string name="preview_device_title">Apparaat</string>
-  <string name="preview_version_title">Versie</string>
-  <string name="preview_country_title">Land</string>
-  <string name="preview_carrier_title">Provider</string>
-  <string name="stats_collection_title">Verzamelen van statistieken</string>
-  <string name="stats_collection_summary">Indien ingeschakeld, staat het verzamelen van statistieken toe</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Patroon opnieuw instellen</string>
   <string name="lockpattern_settings_reset_summary">Voer primair e-mailadres en bijbehorende wachtwoord in om patroon opnieuw in te stellen</string>
@@ -880,20 +849,6 @@
   <string name="pa_login_checking_password">Account controleren\u2026</string>
   <string name="pa_login_incorrect_login">Inloggen mislukt</string>
   <string name="pa_pattern_or_fingerprint_header">Teken patroon of gebruik vingerafdruk om te ontgrendelen</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Bijdragers</string>
-  <string name="contributors_cloud_loading_message">Informatie over bijdragers laden\u2026</string>
-  <string name="contributors_cloud_failed_message">Kan informatie over bijdragers niet laden</string>
-  <string name="contributor_info_menu">Informatie over bijdragers</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Naam:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Alias::</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Informatie over bijdragers</string>
-  <string name="contributions_info_msg">
-        <![CDATA[<b>Aantal bijdragers:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Aantal commits:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Laatste update:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">Geluiden</string>
   <string name="notification_manager">Meldingen</string>
   <string name="lockscreen_settings">Vergrendelingsscherm</string>
@@ -992,8 +947,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">Om beschikbare geanimeerde vergrendelingsschermen te zien, schakel Geanimeerd vergrendelingsscherm in.</string>
   <string name="interruptions_ignore_while_media_title">Stabiel mediavolume</string>
   <string name="interruptions_ignore_while_media_summary">Mediavolume niet verminderen bij meldingen</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">Juridische afdeling van CyanogenMod</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Statistieken opnieuw instellen</string>
   <!-- Reset stats confirmation dialog's message -->

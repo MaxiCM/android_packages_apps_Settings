@@ -44,25 +44,12 @@
   <string name="root_access_all">التطبيقات وADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">الاتصال بالحقل القريب</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">إصدار CyanogenMod</string>
-  <string name="mod_version_default">مجهول</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">طراز الجهاز</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">اسم الجهاز</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">مستوى CyanogenMod API</string>
-  <string name="mod_api_level_default">مجهول</string>
   <!-- About phone screen, build date -->
   <string name="build_date">تاريخ إنشاء</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">تحديثات CyanogenMod</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">تحديث استعادة Cyanogen (Cyanogen recovery)</string>
-  <string name="update_recovery_summary">تحديث الاستعادة بتحديثات النظام</string>
-  <string name="update_recovery_on_warning">ملحوظة: عندما يتم تمكين هذه الميزة، سيتم استبدال النسخة المستعادة المثبتة بأخرى مضمنة مع الإصدار الحالي من برنامج التشغيل العامل.\n\nوسيتم تحديث نسختك المستعادة مع ترقيات النظام، مما يساعد على ضمان التوافق مع الإصدارات المستقبلية. \n\nهل ترغب في تمكين هذه الميزة؟</string>
-  <string name="update_recovery_off_warning">تحذير: عندما يتم تعطيل هذه الميزة، لن يتم تحديث نسختك المستعادة المثبتة بترقيات النظام.\n\n كما أن ترقيات نظام التشغيل الجديدة قد لا يمكن تثبيتها مع النسخ المستعادة القديمة أو المخصصة. \n\nهل ترغب في تعطيل هذه الميزة؟</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">السمات</string>
@@ -853,25 +840,6 @@
   <string name="block_notifications_title">إشعارات عامل التصفية</string>
   <string name="block_notifications_summary">إدارة اﻹشعارات التي تم تجاهلها وعوامل التصفية</string>
   <string name="no_filters_title">لم يتم تعيين عوامل التصفية</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">إحصائيات CyanogenMod</string>
-  <string name="anonymous_statistics_summary">ساهم في جعل CyanogenMod أفضل بموافقتك على إرسال تقارير بالإحصائيات مجهولة للمصدر</string>
-  <string name="anonymous_statistics_warning_title">حول</string>
-  <string name="anonymous_statistics_warning">الموافقة على المشاركة في إحصائيات CyanogenMod سيسمح بإرسال البيانات غير الشخصية إلى مطوري CyanogenMod لتعقب الإصدارات المثبتة على مختلف الأجهزة كل على حدة. وتشمل المعلومات المقدمة معرفاً فريداً من نوعه، وبالتالي لا تتعرض خصوصيتك أو بياناتك الشخصية للخطر. تُرسل البيانات عند التشغيل في كل مرة. \n\n للاطلاع على مثال للبيانات التي يتم إرسالها، اضغط على معاينة البيانات.
-</string>
-  <string name="enable_reporting_title">تمكين إعداد التقارير</string>
-  <string name="preview_data_title">معاينة البيانات</string>
-  <string name="view_stats_title">عرض الإحصائيات</string>
-  <string name="anonymous_learn_more">لمعرفة المزيد</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">معرف فريد</string>
-  <string name="preview_device_title">الجهاز</string>
-  <string name="preview_version_title">الإصدار</string>
-  <string name="preview_country_title">الدولة</string>
-  <string name="preview_carrier_title">شركة المحمول</string>
-  <string name="stats_collection_title">جمع الإحصائيات</string>
-  <string name="stats_collection_summary">عند التمكين، يسمح بجمع المقاييس</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">إعادة تعيين النمط</string>
   <string name="lockpattern_settings_reset_summary">أدخل الحساب الأولي و البريد الإلكتروني وكلمة المرور المقترنة لإعادة تعيين نمط التأمين</string>
@@ -887,20 +855,6 @@
   <string name="pa_login_checking_password">التحقق من الحساب\u2026</string>
   <string name="pa_login_incorrect_login">تسجيل دخول غير صحيح</string>
   <string name="pa_pattern_or_fingerprint_header">يجب رسم نمط أو استخدام بصمة الأصابع لإلغاء التأمين</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">المُساهمون</string>
-  <string name="contributors_cloud_loading_message">يُحمِّل بيانات المُساهمين\u2026</string>
-  <string name="contributors_cloud_failed_message">تعذّر تحميل بيانات المُساهمين</string>
-  <string name="contributor_info_menu">معلومات المُساهم</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>الاسم:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>التزامات:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">معلومات المساهمون</string>
-  <string name="contributions_info_msg">
-<![CDATA[<b>إجمالي المساهمين:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-<b>إجمالي المساهمات:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>آخر تحديث:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">أصوات</string>
   <string name="notification_manager">الإشعارات</string>
   <string name="lockscreen_settings">شاشة التأمين</string>
@@ -1000,8 +954,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">لعرض شاشات التأمين المباشر المتوفرة، قم بتشغيل شاشات التأمين المباشر.</string>
   <string name="interruptions_ignore_while_media_title">منع تراكب الأصوات</string>
   <string name="interruptions_ignore_while_media_summary">لا يخفض صوت تشغيل الوسائط عند وصول إشعار</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">قانون CyanogenMod</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">إعادة تعيين الإحصائيات</string>
   <!-- Reset stats confirmation dialog's message -->

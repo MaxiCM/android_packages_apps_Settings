@@ -41,25 +41,12 @@
   <string name="root_access_all">Для дадаткаў і ADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">Версія CyanogenMod</string>
-  <string name="mod_version_default">Невядома</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Мадэль прылады</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Імя прылады</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">Узровень CyanogenMod API</string>
-  <string name="mod_api_level_default">Невядома</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Дата зборкі</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Абнаўленні сістэмы</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Абнаўляць рэжым аднаўлення</string>
-  <string name="update_recovery_summary">Перазапісваць падзел Recovery пры ўсталёўцы абнаўленняў</string>
-  <string name="update_recovery_on_warning">Калі гэта функцыя ўключана, усталяваная прашыўка рэжыму аднаўлення будзе перазапісана той, якая адпавядае бягучай версіі АС.\n\n Рэжым аднаўлення будзе абнаўляцца разам з абнаўленнямі сістэмы, забяспечваючы сумяшчальнасць з будучымі версіямі.\n\nУключыць выкарыстанне гэтай функцыі?</string>
-  <string name="update_recovery_off_warning">Калі гэта функцыя адключана, прашыўка рэжыму аднаўлення заўсёды будзе заставацца нязменнай.\n\nНекаторыя абнаўленні АС могуць не ўсталёўвацца пры выкарыстанні састарэлых ці карыстальніцкіх версій падзелу Recovery.\n\nАдключыць выкарыстанне гэтай функцыі?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Тэмы</string>
@@ -847,24 +834,6 @@
   <string name="block_notifications_title">Фільтр паведамленняў</string>
   <string name="block_notifications_summary">Налада ігнараваных паведамленняў і фільтраў</string>
   <string name="no_filters_title">Фільтр не ўсталяваны</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Адпраўка статыстыкі</string>
-  <string name="anonymous_statistics_summary">Дапамажыце зрабіць CyanogenMod лепш, дазволіўшы збор ананімнай статыстыкі</string>
-  <string name="anonymous_statistics_warning_title">Звесткі</string>
-  <string name="anonymous_statistics_warning">Ананімныя справаздачы дазваляюць распрацоўнікам CyanogenMod адсочваць усталёўкі на розныя прылады. Адсыланая інфармацыю складаецца з назву прылады, версію прашыўкі і ўнікальны ідэнтыфікатар, адпраўка якога ніякай чынам не шкодзіць Вашай прыватнасці. Справаздача адсылаецца пры кожнай загрузцы прылады.</string>
-  <string name="enable_reporting_title">Дазволіць збор статыстыкі</string>
-  <string name="preview_data_title">Прагляд дадзеных якія адпраўляюцца</string>
-  <string name="view_stats_title">Прагляд статыстыкі ўсталёвак</string>
-  <string name="anonymous_learn_more">Падрабязней</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Ідэнтыфікатар</string>
-  <string name="preview_device_title">Прылада</string>
-  <string name="preview_version_title">Версія</string>
-  <string name="preview_country_title">Краіна</string>
-  <string name="preview_carrier_title">Аператар</string>
-  <string name="stats_collection_title">Збор статыстыкі</string>
-  <string name="stats_collection_summary">Калі ўключана, дазваляе збор метрыкі</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Скінуць графічны ключ</string>
   <string name="lockpattern_settings_reset_summary">Увядзіце адрас электроннай пошты асноўнага акаўнта і адпаведны пароль для скіду графічнага ключа</string>
@@ -879,20 +848,6 @@
   <string name="pa_login_checking_password">Праверка дадзеных\u2026</string>
   <string name="pa_login_incorrect_login">Уваход не атрымаўся</string>
   <string name="pa_pattern_or_fingerprint_header">Патрэбны графічны ключ альбо адбітак пальцу для разблакавання</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Імёны распрацоўнікаў</string>
-  <string name="contributors_cloud_loading_message">Загрузка дадзеных\u2026</string>
-  <string name="contributors_cloud_failed_message">Не атрымалася загрузіць звесткі пра ўдзельнікаў праекта</string>
-  <string name="contributor_info_menu">Звесткі пра ўдзельніка</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Імя:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Мянушка:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Папраўкі:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Агульная статыстыка</string>
-  <string name="contributions_info_msg">
-<![CDATA[<b>Усяго ўдзельнікаў праекта:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Усяго комітаў: </b><xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Апошняе абнаўленне: </b><xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">Гукі</string>
   <string name="notification_manager">Паведамленні</string>
   <string name="lockscreen_settings">Экран блакавання</string>
@@ -990,8 +945,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">Каб бачыць даступныя жывыя экраны блакавання, ўключыце іх.</string>
   <string name="interruptions_ignore_while_media_title">Не прыглушаць гук</string>
   <string name="interruptions_ignore_while_media_summary">Не змяншаць гучнасць прайгравання мультымедыя пры атрыманні паведамленняў</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">Палітыка прыватнасці CyanogenMod</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Скід статыстыкі</string>
   <!-- Reset stats confirmation dialog's message -->

@@ -41,25 +41,12 @@
   <string name="root_access_all">Для приложений и ADB</string>
   <!-- NFC PreferenceCategory title -->
   <string name="nfc_title_category">NFC</string>
-  <!-- About phone screen, CyanogenMod version -->
-  <string name="mod_version">Версия CyanogenMod</string>
-  <string name="mod_version_default">Неизвестно</string>
   <!-- About phone screen, Device model -->
   <string name="device_model">Модель устройства</string>
   <!-- About phone screen, Device name -->
   <string name="device_name">Имя устройства</string>
-  <!-- About phone screen, CyanogenMod Api Level -->
-  <string name="mod_api_level">Версия API CyanogenMod</string>
-  <string name="mod_api_level_default">Неизвестно</string>
   <!-- About phone screen, build date -->
   <string name="build_date">Дата сборки</string>
-  <!-- CM Updater -->
-  <string name="cmupdate_settings_title">Обновления системы</string>
-  <!-- Settings switch for updating Cyanogen recovery -->
-  <string name="update_recovery_title">Обновлять режим восстановления</string>
-  <string name="update_recovery_summary">Перезаписывать прошивку режима восстановления при обновлении системы</string>
-  <string name="update_recovery_on_warning">ПРИМЕЧАНИЕ. При включении этой функции установленная прошивка режима восстановления перезапишется в соответствии с текущей версией ОС.\n\nРежим восстановления будет обновляться вместе с обновлениями системы, обеспечивая совместимость с будущими версиями.\n\nВключить использование этой функции?</string>
-  <string name="update_recovery_off_warning">ВНИМАНИЕ! При отключении этой функции прошивка режима восстановления будет оставаться неизменной.\n\nНекоторые обновления ОС могут не устанавливаться при использовании устаревших или пользовательских версий прошивки.\n\nОтключить использование этой функции?</string>
   <!-- Themes Settings -->
   <!-- Settings main menu entry -->
   <string name="themes_settings_title">Темы</string>
@@ -850,24 +837,6 @@
   <string name="block_notifications_title">Фильтр уведомлений</string>
   <string name="block_notifications_summary">Настройка игнорируемых уведомлений и фильтров</string>
   <string name="no_filters_title">Фильтр не установлен</string>
-  <!-- Anonymous Statistics #CM -->
-  <!-- About device screen, list item title. Takes the user to the screen about opting in or out of anonymous statistics. -->
-  <string name="anonymous_statistics_title">Отправка статистики</string>
-  <string name="anonymous_statistics_summary">Помогите сделать CyanogenMod лучше, разрешив сбор анонимной статистики</string>
-  <string name="anonymous_statistics_warning_title">Сведения</string>
-  <string name="anonymous_statistics_warning">Анонимные отчёты позволяют разработчикам CyanogenMod отслеживать работу ОС на различных устройствах. Отправляемая информация включает название устройства, версию прошивки и уникальный идентификатор, что никаким образом не затрагивает Вашу конфиденциальность. Данные отправляются при каждой загрузке устройства.\n\nЧтобы просмотреть пример, нажмите «Просмотр данных».</string>
-  <string name="enable_reporting_title">Разрешить сбор статистики</string>
-  <string name="preview_data_title">Просмотр данных</string>
-  <string name="view_stats_title">Просмотр статистики</string>
-  <string name="anonymous_learn_more">Подробнее</string>
-  <!-- Anonymous Statistics - Preview -->
-  <string name="preview_id_title">Идентификатор</string>
-  <string name="preview_device_title">Устройство</string>
-  <string name="preview_version_title">Версия</string>
-  <string name="preview_country_title">Страна</string>
-  <string name="preview_carrier_title">Оператор</string>
-  <string name="stats_collection_title">Сбор статистики</string>
-  <string name="stats_collection_summary">Когда включено, разрешается сбор показателей</string>
   <!-- Protected apps lockpattern reset button -->
   <string name="lockpattern_reset_button">Сбросить граф. ключ</string>
   <string name="lockpattern_settings_reset_summary">Введите адрес эл. почты основного аккаунта и соответствующий пароль для сброса граф. ключа</string>
@@ -883,20 +852,6 @@
   <string name="pa_login_checking_password">Проверка данных\u2026</string>
   <string name="pa_login_incorrect_login">Не удалось войти</string>
   <string name="pa_pattern_or_fingerprint_header">Требуется граф. ключ или отпечаток пальца для разблокировки</string>
-  <!-- Contributors cloud activity -->
-  <string name="contributors_cloud_fragment_title">Имена разработчиков</string>
-  <string name="contributors_cloud_loading_message">Загрузка данных\u2026</string>
-  <string name="contributors_cloud_failed_message">Не удалось загрузить сведения об участниках проекта</string>
-  <string name="contributor_info_menu">Сведения об участнике</string>
-  <string name="contributor_info_msg">
-        <![CDATA[<b>Имя:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Псевдоним:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Коммитов:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-  <string name="contributions_info_menu">Общая статистика</string>
-  <string name="contributions_info_msg">
- <![CDATA[<b>Всего участников:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-<b>Всего коммитов:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-<b>Последнее обновление:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
   <string name="category_sounds">Звуки</string>
   <string name="notification_manager">Уведомления</string>
   <string name="lockscreen_settings">Экран блокировки</string>
@@ -995,8 +950,6 @@
   <string name="live_lock_screen_settings_disabled_prompt">Для просмотра живых экранов блокировки включите поддержку этой функции.</string>
   <string name="interruptions_ignore_while_media_title">Не приглушать звук</string>
   <string name="interruptions_ignore_while_media_summary">Не снижать громкость воспроизведения мультимедиа при получении уведомлений</string>
-  <!-- CM Legal -->
-  <string name="cmlicense_title">Политика конфиденциальности CyanogenMod</string>
   <!-- Menu label for reset the battery stats -->
   <string name="menu_stats_reset">Сброс статистики</string>
   <!-- Reset stats confirmation dialog's message -->
