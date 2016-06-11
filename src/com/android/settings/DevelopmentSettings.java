@@ -1787,12 +1787,6 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
                 .show();
     }
 
-    public static void initializeUpdateRecoveryOption() {
-        if (TextUtils.isEmpty(SystemProperties.get(UPDATE_RECOVERY_PROPERTY))) {
-            resetUpdateRecoveryOptions();
-        }
-    }
-
     @Override
     public void onSwitchChanged(Switch switchView, boolean isChecked) {
         if (switchView != mSwitchBar.getSwitch()) {
@@ -2189,6 +2183,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         } else if (dialog == mRootDialog) {
             updateRootAccessOptions();
             mRootDialog = null;
+        }
     }
 
     @Override
