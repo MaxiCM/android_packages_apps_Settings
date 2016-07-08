@@ -83,6 +83,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
+    private static final String KEY_MAXI_VERSION = "maxi_version";
     private static final String KEY_MOD_BUILD_DATE = "build_date";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
@@ -130,6 +131,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setStringSummary(KEY_BUILD_NUMBER, Build.DISPLAY);
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
+        setValueSummary(KEY_MAXI_VERSION, "ro.maxi.display.version");
+        findPreference(KEY_MAXI_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_DATE, "ro.build.date");
         findPreference(KEY_MOD_BUILD_DATE).setEnabled(true);
 
@@ -299,6 +302,20 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
             PersistableBundle b = configManager.getConfig();
             if (b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
                 ciActionOnSysUpdate(b);
+            }
+        } else if (preference.getKey().equals(KEY_MAXI_VERSION)) {		
+            System.arraycopy(mHits, 1, mHits, 0, mHits.length-1);		
+            mHits[mHits.length-1] = SystemClock.uptimeMillis();		
+            if (mHits[0] >= (SystemClock.uptimeMillis()-500)) {		
+                Intent intent = new Intent(Intent.ACTION_MAIN);		
+                intent.putExtra("is_cm", true);		
+                intent.setClassName("android",		
+                        com.android.internal.app.PlatLogoActivity.class.getName());		
+                try {		
+                    startActivity(intent);		
+                } catch (Exception e) {		
+                    Log.e(LOG_TAG, "Unable to start activity " + intent.toString());		
+                }		
             }
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
