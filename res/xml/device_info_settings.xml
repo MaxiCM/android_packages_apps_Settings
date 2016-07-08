@@ -73,6 +73,12 @@
                 android:title="@string/device_name"
                 android:summary="@string/device_info_default"/>
 
+        <!-- MaxiCM version -->
+        <Preference android:key="maxicm_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/maxicm_version"
+                android:summary="@string/maxicm_version_default" />
+
         <!-- Device hardware model -->
         <Preference android:key="device_model"
                 style="?android:preferenceInformationStyle"
